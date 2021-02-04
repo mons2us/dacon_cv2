@@ -7,24 +7,32 @@ from PIL import Image
 from .imageprocess import image_transformer, image_processor
 
 class CustomDataLoader():
-    def __init__(self, img_dir, label_dir, transform=True, device=None):
+    
+    def __init__(self, img_dir=None, label_dir=None, train=True, row_index=None, device=None):
         """
         Arguments:
         img_dir  : Where train dataset is located, e.g. /loc/of/your/path/trainset
         label_dir: Where label csv file is located, e.g. /loc/of/your/path/LABEL.csv
+        train    : Used to specify trainset. For validation and testset, set this value as False.
+        row_idx  : Mainly used for train/val split. Among all images it specifies which row should be processed.
+            Usage INPUT:np.array()
+                  e.g. np.array([1, 5, 10, 102, ...])
         use_cuda : Decide whether to use cuda. If cuda is not available, it will be set False.
         """
         assert os.path.exists(img_dir) and os.path.exists(label_dir), "Path not exists."
+        assert row_index, "Index should be given."
         
         self.img_dir = img_dir
         self.label_dir = label_dir
         
         label_df = pd.read_csv(label_dir)
-        self.label_index  = label_df.iloc[:, 0].values
-        self.label_values = label_df.iloc[:, 1:].values
         
-        self.transform = transform
+        self.label_index = label_df.iloc[row_index, 0].values
+        self.label_values = label_df.iloc[row_index, 1:].values
         
+        # Transformation
+        self.train = train
+
         # Set device
         self.device = device
         
@@ -45,15 +53,10 @@ class CustomDataLoader():
         image_path = os.path.join(self.img_dir, image_idx)
         assert os.path.exists(image_path), f"Given image path not exists: {image_path}"
         
-        _image = cv2.imread(image_path)
-        
-        if self.transform:
-            image = np.array(image_processor(_image))
-        else:
-            image = np.array(_image)
-        
-        pil_image = Image.fromarray(image)
-        fin_image = image_transformer(pil_image)
+        #_image = cv2.imread(image_path)
+        #pil_image = Image.open(image_path).convert('RGB')
+        pil_image = Image.open(image_path)
+        fin_image = image_transformer(pil_image, self.train)[0:1]
 
         # To torch.tensor type
         label_item = torch.tensor(label).float().to(self.device)
