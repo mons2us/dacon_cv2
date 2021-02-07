@@ -56,7 +56,7 @@ class CustomDataLoader():
         #_image = cv2.imread(image_path)
         #pil_image = Image.open(image_path).convert('RGB')
         pil_image = Image.open(image_path)
-        fin_image = image_transformer(pil_image, self.train)[0:1]
+        fin_image = image_transformer(pil_image, self.train)
 
         # To torch.tensor type
         label_item = torch.tensor(label).float().to(self.device)

@@ -24,8 +24,8 @@ class PretrainedResnet(nn.Module):
         super(PretrainedResnet, self).__init__()
 
         self.block = nn.Sequential(
-            nn.Conv2d(1, 3, 1, stride=1),
-            nn.ReLU(),
+            #nn.Conv2d(1, 3, 1, stride=1),
+            #nn.ReLU(),
             resnet_base,
         )
 
