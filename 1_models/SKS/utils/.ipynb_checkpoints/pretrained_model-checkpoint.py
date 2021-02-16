@@ -2,8 +2,11 @@ import os
 import torch
 from torch import nn
 import torchvision
+from src.model import PlainResnet50, CustomResnet50, PlainEfficientnetB4
+
 from torchvision.models import resnet50
 from efficientnet_pytorch import EfficientNet
+import IPython
 
 
 class ModelWrapper(nn.Module):
@@ -23,12 +26,19 @@ class CustomModel(nn.Module):
     """
     To add custom layers in base model, e.g. sigmoid layer.
     """
-    def __init__(self, base_model):
+    def __init__(self, base_model, pretrained_model):
         super(CustomModel, self).__init__()
         self.block = nn.Sequential(
             base_model,
-            nn.Sigmoid(),
+            #nn.Sigmoid(),
         )
+        
+        if pretrained_model == 'efficientnet':
+            nn.init.xavier_normal_(self.block[0]._fc.weight)
+        elif pretrained_model == 'resnet50':
+            #IPython.embed(); exit(1)
+            nn.init.xavier_normal_(self.block[0].block[0].fc[0].weight)
+            nn.init.xavier_normal_(self.block[0].block[0].fc[2].weight)
     
     def forward(self, x):
         out = self.block(x)
@@ -39,7 +49,7 @@ class CallPretrainedModel():
     """
     model_type: [resnet50, efficientnet]
     """
-    def __init__(self, mode='train', model_index = None, model_type=None, path='./pretrained_model'):
+    def __init__(self, train=True, model_index = None, model_type=None, path='./pretrained_model'):
 
         self.model_index = model_index
         self.model_type = model_type
@@ -59,34 +69,18 @@ class CallPretrainedModel():
         elif model_type == 'efficientnet':
             
             weight_path = os.path.join(path, 'pretrained_efficientnet.pth')
-            base_model = EfficientNet()
+            base_model = EfficientNet.from_pretrained('efficientnet-b4', num_classes=26)
             model = CallPretrainedModel._load_weights(base_model, weight_path)
         
         else:
             raise Exception(f"No such pretrained model: {model_type}")
         
         self.return_model = model
-        self.mediated_model = None
         
         
     def customize(self):
-        return_model = CustomModel(self.return_model)
-        self.mediated_model = return_model
+        return_model = CustomModel(self.return_model, self.model_type)
         return return_model
-    
-    
-    def load_trained_weight(self, model_index=0, model_type='early', trained_weight_path='./ckpt'):
-        
-        assert model_index > 0
-        
-        model_name = 'early_stopped.pth' if model_type == 'early' else f'model_ckpt_{model_type}.pth'
-        ckpt_path = os.path.join(trained_weight_path, f'model_{model_index}', model_name)
-        
-        trained_model = self.mediated_model
-        trained_model.load_state_dict(torch.load(ckpt_path))
-        trained_model.eval()
-        
-        return trained_model
     
     
     @staticmethod

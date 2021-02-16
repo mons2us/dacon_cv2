@@ -1,0 +1,245 @@
+2021-02-16 16:13:30,557 : START
+2021-02-16 16:13:30,618 : Global Device: cuda:0
+2021-02-16 16:13:30,618 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:13:30,619 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:13:46,644 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:13:47,043 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:13:51,127 : Training on Fold (1/1)
+2021-02-16 16:13:51,252 : Training begins... Epochs = 80
+2021-02-16 16:13:51,253 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:16:02,450 : START
+2021-02-16 16:16:02,475 : Global Device: cuda:0
+2021-02-16 16:16:02,476 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:16:02,476 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:16:18,692 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:16:18,885 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:16:20,955 : Training on Fold (1/1)
+2021-02-16 16:16:21,070 : Training begins... Epochs = 80
+2021-02-16 16:16:21,070 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:19:27,934 : START
+2021-02-16 16:19:27,958 : Global Device: cuda:0
+2021-02-16 16:19:27,958 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:19:27,959 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:19:44,329 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:19:44,523 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:19:46,555 : Training on Fold (1/1)
+2021-02-16 16:19:46,675 : Training begins... Epochs = 80
+2021-02-16 16:19:46,675 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:21:27,994 : START
+2021-02-16 16:21:28,018 : Global Device: cuda:0
+2021-02-16 16:21:28,019 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:21:28,019 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:21:44,109 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:21:44,300 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:21:46,385 : Training on Fold (1/1)
+2021-02-16 16:21:46,501 : Training begins... Epochs = 80
+2021-02-16 16:21:46,502 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:23:16,096 : START
+2021-02-16 16:23:16,120 : Global Device: cuda:0
+2021-02-16 16:23:16,120 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:23:16,121 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:23:32,159 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:23:32,359 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:23:34,354 : Training on Fold (1/1)
+2021-02-16 16:23:34,470 : Training begins... Epochs = 80
+2021-02-16 16:23:34,471 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:24:51,212 : START
+2021-02-16 16:24:51,236 : Global Device: cuda:0
+2021-02-16 16:24:51,236 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:24:51,236 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:25:07,876 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:25:08,068 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:25:10,082 : Training on Fold (1/1)
+2021-02-16 16:25:10,198 : Training begins... Epochs = 80
+2021-02-16 16:25:10,198 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:27:44,068 : START
+2021-02-16 16:27:44,091 : Global Device: cuda:0
+2021-02-16 16:27:44,091 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:27:44,091 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:28:00,259 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:28:00,449 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:28:02,443 : Training on Fold (1/1)
+2021-02-16 16:28:02,562 : Training begins... Epochs = 80
+2021-02-16 16:28:02,562 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:29:37,396 : START
+2021-02-16 16:29:37,423 : Global Device: cuda:0
+2021-02-16 16:29:37,423 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:29:37,423 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:29:53,611 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:29:53,802 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:29:55,787 : Training on Fold (1/1)
+2021-02-16 16:29:55,904 : Training begins... Epochs = 80
+2021-02-16 16:29:55,905 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:30:05,799 : START
+2021-02-16 16:30:05,823 : Global Device: cuda:0
+2021-02-16 16:30:05,823 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:30:05,824 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:30:22,121 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:30:22,329 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:30:24,323 : Training on Fold (1/1)
+2021-02-16 16:30:24,436 : Training begins... Epochs = 80
+2021-02-16 16:30:24,436 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:41:11,010 : START
+2021-02-16 16:41:11,035 : Global Device: cuda:0
+2021-02-16 16:41:11,035 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:41:11,036 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:41:27,813 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:41:28,005 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:41:29,992 : Training on Fold (1/1)
+2021-02-16 16:41:30,109 : Training begins... Epochs = 80
+2021-02-16 16:41:30,110 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:41:44,712 : START
+2021-02-16 16:41:44,739 : Global Device: cuda:0
+2021-02-16 16:41:44,739 : Parsed Args: Namespace(augmix=True, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=10, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-16 16:41:44,739 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-16 16:42:00,912 : Trainset length: 37500, Valset length: 12500
+2021-02-16 16:42:01,103 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb4_ckpt.pth
+2021-02-16 16:42:03,129 : Training on Fold (1/1)
+2021-02-16 16:42:03,246 : Training begins... Epochs = 80
+2021-02-16 16:42:03,246 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-16 16:53:23,267 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 1th epoch
+        Time taken      : 11m 20.02s
+        Training Loss   : 0.027212  |  Training Acc   : 50.8874%
+        Validation Loss : 0.022201  |  Validation Acc : 51.2800%
+---------------------------------------------------------------------------
+
+2021-02-16 16:53:23,374 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 2th epoch
+        Learning Rate : 0.000333
+---------------------------------------------------------------------------
+2021-02-16 17:03:44,723 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 2th epoch
+        Time taken      : 10m 21.35s
+        Training Loss   : 0.021787  |  Training Acc   : 52.1028%
+        Validation Loss : 0.021672  |  Validation Acc : 52.7643%
+---------------------------------------------------------------------------
+
+2021-02-16 17:03:44,969 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 3th epoch
+        Learning Rate : 0.000500
+---------------------------------------------------------------------------
+2021-02-16 17:14:14,721 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 3th epoch
+        Time taken      : 10m 29.75s
+        Training Loss   : 0.021630  |  Training Acc   : 53.0151%
+        Validation Loss : 0.021606  |  Validation Acc : 53.5732%
+---------------------------------------------------------------------------
+
+2021-02-16 17:14:14,946 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 4th epoch
+        Learning Rate : 0.000667
+---------------------------------------------------------------------------
+2021-02-16 17:24:46,722 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 4th epoch
+        Time taken      : 10m 31.78s
+        Training Loss   : 0.021528  |  Training Acc   : 54.0172%
+        Validation Loss : 0.021381  |  Validation Acc : 55.3637%
+---------------------------------------------------------------------------
+
+2021-02-16 17:24:46,947 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 5th epoch
+        Learning Rate : 0.000833
+---------------------------------------------------------------------------
+2021-02-16 17:35:28,903 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 5th epoch
+        Time taken      : 10m 41.96s
+        Training Loss   : 0.021268  |  Training Acc   : 55.9219%
+        Validation Loss : 0.021014  |  Validation Acc : 57.5514%
+---------------------------------------------------------------------------
+
+2021-02-16 17:35:29,135 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 6th epoch
+        Learning Rate : 0.001000
+---------------------------------------------------------------------------

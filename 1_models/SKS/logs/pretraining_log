@@ -1,0 +1,113 @@
+2021-02-12 00:15:06,114 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-12 00:16:01,888 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-12 00:19:19,934 : Training begins: epochs=100
+2021-02-12 00:19:19,935 : Epoch: 0
+2021-02-12 00:19:35,358 : Training begins: epochs=100
+2021-02-12 00:19:35,359 : Epoch: 0
+2021-02-12 00:21:19,304 : Training begins: epochs=100
+2021-02-12 00:21:19,305 : Epoch: 0
+2021-02-12 00:32:29,647 : Epoch: 1 | Training Loss: 0.0177 | Val Loss: 0.0061 | Train Acc: 64.37% | Val Acc: 86.90%
+2021-02-12 00:32:29,767 : Epoch: 1
+2021-02-12 00:44:06,053 : Epoch: 2 | Training Loss: 0.0067 | Val Loss: 0.0047 | Train Acc: 86.22% | Val Acc: 89.77%
+2021-02-12 00:44:06,383 : Epoch: 2
+2021-02-12 00:56:06,487 : Epoch: 3 | Training Loss: 0.0054 | Val Loss: 0.0046 | Train Acc: 88.89% | Val Acc: 90.45%
+2021-02-12 00:56:06,849 : Epoch: 3
+2021-02-12 01:05:02,778 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-12 01:06:23,959 : Training begins: epochs=30
+2021-02-12 01:06:23,960 : Epoch: 1
+2021-02-12 01:18:08,262 : Epoch: 1 | Training Loss: 0.0142 | Val Loss: 0.0066 | Train Acc: 71.34% | Val Acc: 86.36%
+2021-02-12 01:18:08,592 : Epoch: 2
+2021-02-12 01:29:54,545 : Epoch: 2 | Training Loss: 0.0064 | Val Loss: 0.0044 | Train Acc: 86.90% | Val Acc: 90.71%
+2021-02-12 01:29:54,868 : Epoch: 3
+2021-02-12 01:41:09,227 : Epoch: 3 | Training Loss: 0.0053 | Val Loss: 0.0045 | Train Acc: 89.04% | Val Acc: 90.85%
+2021-02-12 01:41:09,549 : Epoch: 4
+2021-02-12 01:52:17,459 : Epoch: 4 | Training Loss: 0.0048 | Val Loss: 0.0045 | Train Acc: 90.04% | Val Acc: 91.08%
+2021-02-12 01:52:17,778 : Epoch: 5
+2021-02-12 02:03:33,788 : Epoch: 5 | Training Loss: 0.0036 | Val Loss: 0.0034 | Train Acc: 92.30% | Val Acc: 92.76%
+2021-02-12 02:03:34,121 : Epoch: 6
+2021-02-12 02:14:49,258 : Epoch: 6 | Training Loss: 0.0030 | Val Loss: 0.0030 | Train Acc: 93.53% | Val Acc: 93.21%
+2021-02-12 02:14:49,572 : Epoch: 7
+2021-02-12 02:26:04,421 : Epoch: 7 | Training Loss: 0.0024 | Val Loss: 0.0025 | Train Acc: 94.62% | Val Acc: 94.40%
+2021-02-12 02:26:04,729 : Epoch: 8
+2021-02-12 02:37:19,598 : Epoch: 8 | Training Loss: 0.0021 | Val Loss: 0.0022 | Train Acc: 95.14% | Val Acc: 95.09%
+2021-02-12 02:37:19,919 : Epoch: 9
+2021-02-12 02:48:34,378 : Epoch: 9 | Training Loss: 0.0020 | Val Loss: 0.0022 | Train Acc: 95.21% | Val Acc: 94.96%
+2021-02-12 02:48:34,379 : Epoch: 10
+2021-02-12 02:59:49,329 : Epoch: 10 | Training Loss: 0.0023 | Val Loss: 0.0023 | Train Acc: 94.79% | Val Acc: 94.90%
+2021-02-12 02:59:49,330 : Epoch: 11
+2021-02-12 03:11:04,531 : Epoch: 11 | Training Loss: 0.0028 | Val Loss: 0.0027 | Train Acc: 93.80% | Val Acc: 93.94%
+2021-02-12 03:11:04,531 : Epoch: 12
+2021-02-12 03:22:17,812 : Epoch: 12 | Training Loss: 0.0033 | Val Loss: 0.0030 | Train Acc: 92.92% | Val Acc: 93.70%
+2021-02-12 03:22:17,813 : Epoch: 13
+2021-02-12 03:33:32,475 : Epoch: 13 | Training Loss: 0.0035 | Val Loss: 0.0030 | Train Acc: 92.54% | Val Acc: 93.82%
+2021-02-12 03:33:32,476 : Epoch: 14
+2021-02-12 03:44:45,156 : Epoch: 14 | Training Loss: 0.0035 | Val Loss: 0.0034 | Train Acc: 92.55% | Val Acc: 92.84%
+2021-02-12 03:44:45,157 : Epoch: 15
+2021-02-12 03:55:59,360 : Epoch: 15 | Training Loss: 0.0035 | Val Loss: 0.0031 | Train Acc: 92.66% | Val Acc: 93.56%
+2021-02-12 03:55:59,361 : Early stopping condition met --- TRAINING STOPPED
+2021-02-12 13:01:05,219 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-12 13:04:45,386 : Training begins: epochs=50
+2021-02-12 13:04:45,386 : Epoch: 1
+2021-02-12 13:04:45,388 : Learning Rate : 0.000357
+2021-02-12 13:27:13,012 : Epoch: 1 | Training Loss: 0.0159 | Val Loss: 0.0074 | Train Acc: 84.06% | Val Acc: 91.73%
+2021-02-12 13:27:13,105 : Epoch: 2
+2021-02-12 13:27:13,224 : Learning Rate : 0.000714
+2021-02-12 13:49:44,858 : Epoch: 2 | Training Loss: 0.0087 | Val Loss: 0.0068 | Train Acc: 90.84% | Val Acc: 92.67%
+2021-02-12 13:49:45,069 : Epoch: 3
+2021-02-12 13:49:45,211 : Learning Rate : 0.001071
+2021-02-12 14:12:15,973 : Epoch: 3 | Training Loss: 0.0080 | Val Loss: 0.0078 | Train Acc: 91.51% | Val Acc: 91.87%
+2021-02-12 14:12:15,974 : Epoch: 4
+2021-02-12 14:12:16,097 : Learning Rate : 0.001429
+2021-02-12 14:34:47,741 : Epoch: 4 | Training Loss: 0.0076 | Val Loss: 0.0069 | Train Acc: 91.95% | Val Acc: 92.38%
+2021-02-12 14:34:47,742 : Epoch: 5
+2021-02-12 14:34:47,867 : Learning Rate : 0.001786
+2021-02-12 14:57:19,787 : Epoch: 5 | Training Loss: 0.0074 | Val Loss: 0.0063 | Train Acc: 92.21% | Val Acc: 93.39%
+2021-02-12 14:57:20,059 : Epoch: 6
+2021-02-12 14:57:20,221 : Learning Rate : 0.002143
+2021-02-12 15:19:53,413 : Epoch: 6 | Training Loss: 0.0071 | Val Loss: 0.0061 | Train Acc: 92.43% | Val Acc: 93.65%
+2021-02-12 15:19:53,637 : Epoch: 7
+2021-02-12 15:19:53,787 : Learning Rate : 0.002500
+2021-02-12 15:42:24,866 : Epoch: 7 | Training Loss: 0.0069 | Val Loss: 0.0076 | Train Acc: 92.69% | Val Acc: 91.71%
+2021-02-12 15:42:24,867 : Epoch: 8
+2021-02-12 15:42:25,007 : Learning Rate : 0.001912
+2021-02-12 16:04:53,973 : Epoch: 8 | Training Loss: 0.0059 | Val Loss: 0.0060 | Train Acc: 93.58% | Val Acc: 93.69%
+2021-02-12 16:04:54,204 : Epoch: 9
+2021-02-12 16:04:54,329 : Learning Rate : 0.001351
+2021-02-12 16:27:22,697 : Epoch: 9 | Training Loss: 0.0051 | Val Loss: 0.0052 | Train Acc: 94.36% | Val Acc: 94.38%
+2021-02-12 16:27:22,919 : Epoch: 10
+2021-02-12 16:27:23,066 : Learning Rate : 0.000853
+2021-02-12 16:49:51,889 : Epoch: 10 | Training Loss: 0.0044 | Val Loss: 0.0047 | Train Acc: 94.96% | Val Acc: 94.75%
+2021-02-12 16:49:52,116 : Epoch: 11
+2021-02-12 16:49:52,269 : Learning Rate : 0.000449
+2021-02-12 17:12:20,947 : Epoch: 11 | Training Loss: 0.0039 | Val Loss: 0.0044 | Train Acc: 95.42% | Val Acc: 95.05%
+2021-02-12 17:12:21,173 : Epoch: 12
+2021-02-12 17:12:21,322 : Learning Rate : 0.000165
+2021-02-12 17:34:51,400 : Epoch: 12 | Training Loss: 0.0035 | Val Loss: 0.0042 | Train Acc: 95.77% | Val Acc: 95.35%
+2021-02-12 17:34:51,644 : Epoch: 13
+2021-02-12 17:34:51,768 : Learning Rate : 0.000019
+2021-02-12 17:57:17,921 : Epoch: 13 | Training Loss: 0.0033 | Val Loss: 0.0041 | Train Acc: 96.02% | Val Acc: 95.32%
+2021-02-12 17:57:17,921 : Epoch: 14
+2021-02-12 17:57:18,073 : Learning Rate : 0.000019
+2021-02-12 18:19:47,971 : Epoch: 14 | Training Loss: 0.0033 | Val Loss: 0.0041 | Train Acc: 96.03% | Val Acc: 95.47%
+2021-02-12 18:19:48,197 : Epoch: 15
+2021-02-12 18:19:48,360 : Learning Rate : 0.000165
+2021-02-12 18:42:17,903 : Epoch: 15 | Training Loss: 0.0034 | Val Loss: 0.0041 | Train Acc: 95.89% | Val Acc: 95.39%
+2021-02-12 18:42:17,903 : Epoch: 16
+2021-02-12 18:42:18,030 : Learning Rate : 0.000449
+2021-02-12 19:04:47,619 : Epoch: 16 | Training Loss: 0.0036 | Val Loss: 0.0042 | Train Acc: 95.60% | Val Acc: 95.29%
+2021-02-12 19:04:47,619 : Epoch: 17
+2021-02-12 19:04:47,745 : Learning Rate : 0.000853
+2021-02-12 19:28:16,789 : Epoch: 17 | Training Loss: 0.0040 | Val Loss: 0.0045 | Train Acc: 95.31% | Val Acc: 94.99%
+2021-02-12 19:28:16,790 : Epoch: 18
+2021-02-12 19:28:16,956 : Learning Rate : 0.001351
+2021-02-12 19:53:04,250 : Epoch: 18 | Training Loss: 0.0045 | Val Loss: 0.0053 | Train Acc: 94.84% | Val Acc: 94.37%
+2021-02-12 19:53:04,251 : Epoch: 19
+2021-02-12 19:53:04,385 : Learning Rate : 0.001912
+2021-02-12 20:17:56,796 : Epoch: 19 | Training Loss: 0.0050 | Val Loss: 0.0056 | Train Acc: 94.29% | Val Acc: 94.07%
+2021-02-12 20:17:56,797 : Epoch: 20
+2021-02-12 20:17:56,972 : Learning Rate : 0.002500
+2021-02-12 20:42:50,686 : Epoch: 20 | Training Loss: 0.0056 | Val Loss: 0.0055 | Train Acc: 93.88% | Val Acc: 94.04%
+2021-02-12 20:42:50,687 : Epoch: 21
+2021-02-12 20:42:50,849 : Learning Rate : 0.003079
+2021-02-12 21:07:41,538 : Epoch: 21 | Training Loss: 0.0059 | Val Loss: 0.0057 | Train Acc: 93.47% | Val Acc: 93.91%
+2021-02-12 21:07:41,539 : Early stopping condition met --- TRAINING STOPPED

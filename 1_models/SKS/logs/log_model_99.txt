@@ -1,0 +1,106 @@
+2021-02-10 23:53:55,796 : START
+2021-02-10 23:53:55,807 : Global Device: cuda:0
+2021-02-10 23:53:55,807 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=5, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-10 23:53:55,807 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-10 23:54:00,757 : Inference using model of fold (1/5)
+2021-02-10 23:59:42,255 : START
+2021-02-10 23:59:42,266 : Global Device: cuda:0
+2021-02-10 23:59:42,266 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=5, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-10 23:59:42,266 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-10 23:59:46,571 : Inference using model of fold (1/5)
+2021-02-11 00:04:44,286 : START
+2021-02-11 00:04:44,297 : Global Device: cuda:0
+2021-02-11 00:04:44,297 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=5, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-11 00:04:44,297 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-11 00:04:49,189 : Inference using model of fold (1/5)
+2021-02-11 00:06:08,348 : Inference using model of fold (2/5)
+2021-02-11 00:07:39,648 : Inference using model of fold (3/5)
+2021-02-11 00:09:10,333 : Inference using model of fold (4/5)
+2021-02-11 00:13:16,641 : START
+2021-02-11 00:13:16,654 : Global Device: cuda:0
+2021-02-11 00:13:16,654 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=5, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-11 00:13:16,654 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-11 00:13:21,838 : Inference using model of fold (1/5)
+2021-02-11 00:14:43,573 : Inference using model of fold (2/5)
+2021-02-11 00:16:03,477 : Inference using model of fold (3/5)
+2021-02-11 00:17:19,345 : Inference using model of fold (4/5)
+2021-02-11 00:18:45,451 : Inference using model of fold (5/5)
+2021-02-11 00:20:08,242 : START
+2021-02-11 00:20:08,254 : Global Device: cuda:0
+2021-02-11 00:20:08,254 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=4, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-11 00:20:08,254 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-11 00:20:13,342 : Inference using model of fold (1/4)
+2021-02-11 00:21:30,063 : Inference using model of fold (2/4)
+2021-02-11 00:22:44,894 : Inference using model of fold (3/4)
+2021-02-11 00:24:06,028 : Inference using model of fold (4/4)
+2021-02-11 00:25:33,505 : Result file save at: /home/sks/COMPETITION/DACON/computer_vision2/submit/submission_model_99.csv
+2021-02-11 00:27:42,441 : START
+2021-02-11 00:27:42,474 : Global Device: cuda:0
+2021-02-11 00:27:42,475 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=4, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-11 00:27:42,475 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-11 00:27:47,186 : Inference using model of fold (1/4)
+2021-02-11 00:27:52,362 : START
+2021-02-11 00:27:52,375 : Global Device: cuda:0
+2021-02-11 00:27:52,375 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=2, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-11 00:27:52,376 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-11 00:27:56,935 : Inference using model of fold (1/2)
+2021-02-11 00:29:10,021 : Inference using model of fold (2/2)
+2021-02-11 00:32:55,213 : START
+2021-02-11 00:32:55,224 : Global Device: cuda:0
+2021-02-11 00:32:55,224 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=1, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-11 00:32:55,224 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-11 00:33:27,826 : Trainset length: 45000, Valset length: 5000
+2021-02-11 00:33:32,674 : Inference using model of fold (1/1)
+2021-02-13 16:06:55,433 : START
+2021-02-13 16:06:55,447 : Global Device: cuda:0
+2021-02-13 16:06:55,448 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=100, fold_k=3, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.0, val_ratio=0.1, verbose=100)
+2021-02-13 16:06:55,448 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-13 16:06:55,793 : Not using pretrained model.
+2021-02-13 16:06:57,856 : Inference using model of fold (1/3)
+2021-02-13 16:07:42,221 : Inference using model of fold (2/3)
+2021-02-13 16:08:26,411 : Inference using model of fold (3/3)
+2021-02-13 16:09:11,423 : Result file save at: /home/sks/COMPETITION/DACON/computer_vision2/submit/submission_model_99.csv
+2021-02-15 17:46:42,702 : START
+2021-02-15 17:46:42,724 : Global Device: cuda:1
+2021-02-15 17:46:42,724 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=100, fold_k=3, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.1, verbose=100)
+2021-02-15 17:46:42,724 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-15 17:46:43,074 : Not using pretrained model.
+2021-02-15 17:46:53,953 : START
+2021-02-15 17:46:53,963 : Global Device: cuda:1
+2021-02-15 17:46:53,965 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=100, fold_k=3, learning_rate=0.0029, mode='test', model_index=99, patience=10, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.1, verbose=100)
+2021-02-15 17:46:53,965 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-15 17:46:54,437 : Not using pretrained model.
+2021-02-15 17:46:57,558 : Inference using model of fold (1/3)
+2021-02-15 17:46:57,796 : Inference on test_loader (1/5)
+2021-02-15 17:47:47,815 : Done.
+2021-02-15 17:47:47,817 : Inference on test_loader (2/5)
+2021-02-15 17:48:35,927 : Done.
+2021-02-15 17:48:35,927 : Inference on test_loader (3/5)
+2021-02-15 17:49:27,701 : Done.
+2021-02-15 17:49:27,702 : Inference on test_loader (4/5)
+2021-02-15 17:50:17,678 : Done.
+2021-02-15 17:50:17,678 : Inference on test_loader (5/5)
+2021-02-15 17:51:05,704 : Done.
+2021-02-15 17:51:05,708 : Inference using model of fold (2/3)
+2021-02-15 17:51:09,084 : Inference on test_loader (1/5)
+2021-02-15 17:51:57,728 : Done.
+2021-02-15 17:51:57,729 : Inference on test_loader (2/5)
+2021-02-15 17:52:46,424 : Done.
+2021-02-15 17:52:46,425 : Inference on test_loader (3/5)
+2021-02-15 17:53:35,524 : Done.
+2021-02-15 17:53:35,525 : Inference on test_loader (4/5)
+2021-02-15 17:54:25,412 : Done.
+2021-02-15 17:54:25,413 : Inference on test_loader (5/5)
+2021-02-15 17:55:14,779 : Done.
+2021-02-15 17:55:14,784 : Inference using model of fold (3/3)
+2021-02-15 17:55:14,878 : Inference on test_loader (1/5)
+2021-02-15 17:56:02,514 : Done.
+2021-02-15 17:56:02,515 : Inference on test_loader (2/5)
+2021-02-15 17:56:49,851 : Done.
+2021-02-15 17:56:49,852 : Inference on test_loader (3/5)
+2021-02-15 17:57:39,984 : Done.
+2021-02-15 17:57:39,986 : Inference on test_loader (4/5)
+2021-02-15 17:58:29,786 : Done.
+2021-02-15 17:58:29,788 : Inference on test_loader (5/5)
+2021-02-15 17:59:18,154 : Done.
+2021-02-15 17:59:18,182 : Result file save at: /home/sks/COMPETITION/DACON/computer_vision2/submit/submission_model_99.csv

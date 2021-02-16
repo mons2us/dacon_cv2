@@ -1,0 +1,8 @@
+2021-02-12 00:15:06,114 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-12 00:16:01,888 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-12 00:19:19,934 : Training begins: epochs=100
+2021-02-12 00:19:19,935 : Epoch: 0
+2021-02-12 00:19:35,358 : Training begins: epochs=100
+2021-02-12 00:19:35,359 : Epoch: 0
+2021-02-12 00:21:19,304 : Training begins: epochs=100
+2021-02-12 00:21:19,305 : Epoch: 0

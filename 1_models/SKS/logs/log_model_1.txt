@@ -1,0 +1,1170 @@
+2021-02-12 19:04:32,283 : START
+2021-02-12 19:04:32,311 : Global Device: cuda:1
+2021-02-12 19:04:32,311 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=64, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=80, fold_k=1, learning_rate=0.0025, mode='train', model_index=1, patience=7, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.25, verbose=100)
+2021-02-12 19:04:32,312 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-12 19:04:52,729 : Trainset length: 37500, Valset length: 12500
+2021-02-12 19:06:44,190 : START
+2021-02-12 19:06:44,200 : Global Device: cuda:1
+2021-02-12 19:06:44,200 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=64, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=80, fold_k=1, learning_rate=0.0025, mode='train', model_index=1, patience=7, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.25, verbose=100)
+2021-02-12 19:06:44,200 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-12 19:07:01,369 : Trainset length: 37500, Valset length: 12500
+2021-02-12 19:07:05,844 : Training on Fold (1/1)
+2021-02-12 19:09:46,879 : START
+2021-02-12 19:09:46,908 : Global Device: cuda:1
+2021-02-12 19:09:46,908 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=64, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=80, fold_k=1, learning_rate=0.0025, mode='train', model_index=1, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.25, verbose=100)
+2021-02-12 19:09:46,908 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-12 19:10:04,869 : Trainset length: 37500, Valset length: 12500
+2021-02-12 19:10:09,363 : Training on Fold (1/1)
+2021-02-12 19:10:09,477 : Training begins... Epochs = 80
+2021-02-12 19:10:09,477 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 1th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 19:16:57,540 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 1th epoch
+            Time taken      : 6m 48.06s
+            Training Loss   : 0.013768  |  Training Acc   : 52.6986%
+            Validation Loss : 0.021761  |  Validation Acc : 53.7163%
+    ---------------------------------------------------------------------------
+2021-02-12 19:16:57,703 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 2th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 19:21:33,940 : START
+2021-02-12 19:21:33,950 : Global Device: cuda:1
+2021-02-12 19:21:33,950 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=64, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=80, fold_k=1, learning_rate=0.0025, mode='train', model_index=1, patience=7, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.25, verbose=100)
+2021-02-12 19:21:33,950 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-12 19:21:50,979 : Trainset length: 37500, Valset length: 12500
+2021-02-12 19:21:50,979 : Using pretrained model. Loading weights from 
+2021-02-12 19:21:55,460 : Training on Fold (1/1)
+2021-02-12 19:21:55,571 : Training begins... Epochs = 80
+2021-02-12 19:21:55,571 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 1th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 19:25:50,104 : START
+2021-02-12 19:25:50,114 : Global Device: cuda:1
+2021-02-12 19:25:50,114 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=64, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=80, fold_k=1, learning_rate=0.0025, mode='train', model_index=1, patience=7, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.25, verbose=100)
+2021-02-12 19:25:50,114 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-12 19:26:08,439 : Trainset length: 37500, Valset length: 12500
+2021-02-12 19:26:08,439 : Not using pretrained model.
+2021-02-12 19:26:24,133 : START
+2021-02-12 19:26:24,159 : Global Device: cuda:1
+2021-02-12 19:26:24,160 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=64, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=80, fold_k=1, learning_rate=0.0025, mode='train', model_index=1, patience=7, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.25, verbose=100)
+2021-02-12 19:26:24,160 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-12 19:26:41,686 : Trainset length: 37500, Valset length: 12500
+2021-02-12 19:26:41,686 : Not using pretrained model.
+2021-02-12 19:26:43,281 : Training on Fold (1/1)
+2021-02-12 19:26:43,402 : Training begins... Epochs = 80
+2021-02-12 19:26:43,402 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 1th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 19:33:33,808 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 1th epoch
+            Time taken      : 6m 50.41s
+            Training Loss   : 0.011087  |  Training Acc   : 52.6970%
+            Validation Loss : 0.021595  |  Validation Acc : 53.6652%
+    ---------------------------------------------------------------------------
+2021-02-12 19:33:33,957 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 2th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 19:40:33,548 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 2th epoch
+            Time taken      : 6m 59.59s
+            Training Loss   : 0.010765  |  Training Acc   : 54.0546%
+            Validation Loss : 0.021524  |  Validation Acc : 54.2098%
+    ---------------------------------------------------------------------------
+2021-02-12 19:40:33,901 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 3th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 19:47:27,761 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 3th epoch
+            Time taken      : 6m 53.86s
+            Training Loss   : 0.010752  |  Training Acc   : 54.1987%
+            Validation Loss : 0.021574  |  Validation Acc : 54.2988%
+    ---------------------------------------------------------------------------
+2021-02-12 19:47:27,761 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 4th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 19:54:24,584 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 4th epoch
+            Time taken      : 6m 56.82s
+            Training Loss   : 0.010753  |  Training Acc   : 54.2284%
+            Validation Loss : 0.021550  |  Validation Acc : 54.1486%
+    ---------------------------------------------------------------------------
+2021-02-12 19:54:24,584 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 5th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 20:01:20,733 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 5th epoch
+            Time taken      : 6m 56.15s
+            Training Loss   : 0.010699  |  Training Acc   : 55.1716%
+            Validation Loss : 0.021333  |  Validation Acc : 55.9095%
+    ---------------------------------------------------------------------------
+2021-02-12 20:01:21,080 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 6th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 20:08:16,839 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 6th epoch
+            Time taken      : 6m 55.76s
+            Training Loss   : 0.010592  |  Training Acc   : 56.4819%
+            Validation Loss : 0.021183  |  Validation Acc : 56.7646%
+    ---------------------------------------------------------------------------
+2021-02-12 20:08:17,193 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 7th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 20:15:13,914 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 7th epoch
+            Time taken      : 6m 56.72s
+            Training Loss   : 0.010488  |  Training Acc   : 57.6045%
+            Validation Loss : 0.021070  |  Validation Acc : 57.3942%
+    ---------------------------------------------------------------------------
+2021-02-12 20:15:14,268 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 8th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 20:22:11,866 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 8th epoch
+            Time taken      : 6m 57.60s
+            Training Loss   : 0.010308  |  Training Acc   : 59.4336%
+            Validation Loss : 0.020464  |  Validation Acc : 60.3422%
+    ---------------------------------------------------------------------------
+2021-02-12 20:22:12,237 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 9th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 20:29:07,003 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 9th epoch
+            Time taken      : 6m 54.77s
+            Training Loss   : 0.010060  |  Training Acc   : 61.4742%
+            Validation Loss : 0.019961  |  Validation Acc : 62.4175%
+    ---------------------------------------------------------------------------
+2021-02-12 20:29:07,359 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 10th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 20:36:03,353 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 10th epoch
+            Time taken      : 6m 55.99s
+            Training Loss   : 0.009818  |  Training Acc   : 63.4353%
+            Validation Loss : 0.019567  |  Validation Acc : 64.2911%
+    ---------------------------------------------------------------------------
+2021-02-12 20:36:03,701 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 11th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 20:43:03,300 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 11th epoch
+            Time taken      : 6m 59.60s
+            Training Loss   : 0.009416  |  Training Acc   : 66.0778%
+            Validation Loss : 0.018707  |  Validation Acc : 66.8778%
+    ---------------------------------------------------------------------------
+2021-02-12 20:43:03,645 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 12th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 20:50:00,245 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 12th epoch
+            Time taken      : 6m 56.60s
+            Training Loss   : 0.009139  |  Training Acc   : 67.7130%
+            Validation Loss : 0.018128  |  Validation Acc : 68.5157%
+    ---------------------------------------------------------------------------
+2021-02-12 20:50:00,594 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 13th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 20:56:55,578 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 13th epoch
+            Time taken      : 6m 54.98s
+            Training Loss   : 0.008896  |  Training Acc   : 69.1283%
+            Validation Loss : 0.017882  |  Validation Acc : 69.4846%
+    ---------------------------------------------------------------------------
+2021-02-12 20:56:55,933 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 14th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 21:03:52,207 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 14th epoch
+            Time taken      : 6m 56.27s
+            Training Loss   : 0.008643  |  Training Acc   : 70.7911%
+            Validation Loss : 0.016867  |  Validation Acc : 71.9480%
+    ---------------------------------------------------------------------------
+2021-02-12 21:03:52,555 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 15th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 21:10:31,007 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 15th epoch
+            Time taken      : 6m 38.45s
+            Training Loss   : 0.008303  |  Training Acc   : 72.7111%
+            Validation Loss : 0.016080  |  Validation Acc : 74.1683%
+    ---------------------------------------------------------------------------
+2021-02-12 21:10:31,375 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 16th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 21:16:22,374 : START
+2021-02-12 21:16:22,400 : Global Device: cuda:1
+2021-02-12 21:16:22,400 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=64, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=80, fold_k=1, learning_rate=0.0025, mode='train', model_index=1, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.25, verbose=100)
+2021-02-12 21:16:22,400 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-12 21:16:34,884 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 16th epoch
+            Time taken      : 6m 3.51s
+            Training Loss   : 0.007957  |  Training Acc   : 74.4942%
+            Validation Loss : 0.015413  |  Validation Acc : 75.8738%
+    ---------------------------------------------------------------------------
+2021-02-12 21:16:43,156 : Trainset length: 37500, Valset length: 12500
+2021-02-12 21:16:43,156 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_resnet50_ckpt.pth
+2021-02-12 21:16:46,403 : Training on Fold (1/1)
+2021-02-12 21:16:46,515 : Training begins... Epochs = 80
+2021-02-12 21:16:46,515 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 1th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 21:18:01,154 : START
+2021-02-12 21:18:01,182 : Global Device: cuda:1
+2021-02-12 21:18:01,182 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=64, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=80, fold_k=1, learning_rate=0.0025, mode='train', model_index=1, patience=7, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.25, verbose=100)
+2021-02-12 21:18:01,182 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-12 21:18:16,970 : Trainset length: 37500, Valset length: 12500
+2021-02-12 21:18:16,970 : Not using pretrained model.
+2021-02-12 21:18:18,409 : Training on Fold (1/1)
+2021-02-12 21:18:18,522 : Training begins... Epochs = 80
+2021-02-12 21:18:18,522 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 1th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 21:25:00,314 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 1th epoch
+            Time taken      : 6m 41.79s
+            Training Loss   : 0.011108  |  Training Acc   : 52.6292%
+            Validation Loss : 0.021582  |  Validation Acc : 53.7403%
+    ---------------------------------------------------------------------------
+2021-02-12 21:25:00,471 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 2th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 21:32:03,492 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 2th epoch
+            Time taken      : 7m 3.02s
+            Training Loss   : 0.010767  |  Training Acc   : 53.9908%
+            Validation Loss : 0.021524  |  Validation Acc : 54.2348%
+    ---------------------------------------------------------------------------
+2021-02-12 21:32:03,852 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 3th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 21:39:03,677 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 3th epoch
+            Time taken      : 6m 59.83s
+            Training Loss   : 0.010753  |  Training Acc   : 54.1872%
+            Validation Loss : 0.021531  |  Validation Acc : 54.1674%
+    ---------------------------------------------------------------------------
+2021-02-12 21:39:03,678 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 4th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 21:46:01,848 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 4th epoch
+            Time taken      : 6m 58.17s
+            Training Loss   : 0.010736  |  Training Acc   : 54.5363%
+            Validation Loss : 0.021464  |  Validation Acc : 54.8151%
+    ---------------------------------------------------------------------------
+2021-02-12 21:46:02,184 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 5th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 21:53:01,918 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 5th epoch
+            Time taken      : 6m 59.73s
+            Training Loss   : 0.010672  |  Training Acc   : 55.5689%
+            Validation Loss : 0.021249  |  Validation Acc : 56.2311%
+    ---------------------------------------------------------------------------
+2021-02-12 21:53:02,270 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 6th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 22:00:01,331 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 6th epoch
+            Time taken      : 6m 59.06s
+            Training Loss   : 0.010577  |  Training Acc   : 56.6213%
+            Validation Loss : 0.021036  |  Validation Acc : 57.3902%
+    ---------------------------------------------------------------------------
+2021-02-12 22:00:01,721 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 7th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 22:07:01,841 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 7th epoch
+            Time taken      : 7m 0.12s
+            Training Loss   : 0.010388  |  Training Acc   : 58.3653%
+            Validation Loss : 0.020621  |  Validation Acc : 59.3840%
+    ---------------------------------------------------------------------------
+2021-02-12 22:07:02,185 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 8th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 22:14:08,592 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 8th epoch
+            Time taken      : 7m 6.41s
+            Training Loss   : 0.010201  |  Training Acc   : 60.1582%
+            Validation Loss : 0.020312  |  Validation Acc : 60.7778%
+    ---------------------------------------------------------------------------
+2021-02-12 22:14:08,932 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 9th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 22:21:09,541 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 9th epoch
+            Time taken      : 7m 0.61s
+            Training Loss   : 0.010031  |  Training Acc   : 61.7530%
+            Validation Loss : 0.019780  |  Validation Acc : 62.9643%
+    ---------------------------------------------------------------------------
+2021-02-12 22:21:09,898 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 10th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 22:28:08,977 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 10th epoch
+            Time taken      : 6m 59.08s
+            Training Loss   : 0.009800  |  Training Acc   : 63.5008%
+            Validation Loss : 0.019279  |  Validation Acc : 64.5975%
+    ---------------------------------------------------------------------------
+2021-02-12 22:28:09,320 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 11th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 22:35:11,649 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 11th epoch
+            Time taken      : 7m 2.33s
+            Training Loss   : 0.009425  |  Training Acc   : 65.9359%
+            Validation Loss : 0.018491  |  Validation Acc : 67.1982%
+    ---------------------------------------------------------------------------
+2021-02-12 22:35:11,994 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 12th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 22:42:12,510 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 12th epoch
+            Time taken      : 7m 0.52s
+            Training Loss   : 0.009155  |  Training Acc   : 67.6177%
+            Validation Loss : 0.018060  |  Validation Acc : 68.3711%
+    ---------------------------------------------------------------------------
+2021-02-12 22:42:12,857 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 13th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 22:49:15,015 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 13th epoch
+            Time taken      : 7m 2.16s
+            Training Loss   : 0.008883  |  Training Acc   : 69.3535%
+            Validation Loss : 0.017416  |  Validation Acc : 70.5197%
+    ---------------------------------------------------------------------------
+2021-02-12 22:49:15,412 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 14th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 22:56:15,490 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 14th epoch
+            Time taken      : 7m 0.08s
+            Training Loss   : 0.008600  |  Training Acc   : 71.0297%
+            Validation Loss : 0.016927  |  Validation Acc : 71.8892%
+    ---------------------------------------------------------------------------
+2021-02-12 22:56:15,832 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 15th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 23:03:57,819 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 15th epoch
+            Time taken      : 7m 41.99s
+            Training Loss   : 0.008279  |  Training Acc   : 72.9231%
+            Validation Loss : 0.016087  |  Validation Acc : 74.1852%
+    ---------------------------------------------------------------------------
+2021-02-12 23:03:58,161 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 16th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 23:14:59,640 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 16th epoch
+            Time taken      : 11m 1.48s
+            Training Loss   : 0.007945  |  Training Acc   : 74.7024%
+            Validation Loss : 0.015415  |  Validation Acc : 75.8234%
+    ---------------------------------------------------------------------------
+2021-02-12 23:14:59,994 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 17th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 23:25:52,007 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 17th epoch
+            Time taken      : 10m 52.01s
+            Training Loss   : 0.007570  |  Training Acc   : 76.5438%
+            Validation Loss : 0.014743  |  Validation Acc : 77.8588%
+    ---------------------------------------------------------------------------
+2021-02-12 23:25:52,408 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 18th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 23:36:58,896 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 18th epoch
+            Time taken      : 11m 6.49s
+            Training Loss   : 0.007180  |  Training Acc   : 78.4744%
+            Validation Loss : 0.014021  |  Validation Acc : 79.4274%
+    ---------------------------------------------------------------------------
+2021-02-12 23:36:59,286 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 19th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 23:47:46,464 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 19th epoch
+            Time taken      : 10m 47.18s
+            Training Loss   : 0.006875  |  Training Acc   : 79.7893%
+            Validation Loss : 0.013482  |  Validation Acc : 80.4938%
+    ---------------------------------------------------------------------------
+2021-02-12 23:47:46,853 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 20th epoch
+            Learning Rate : 0.001750
+    ---------------------------------------------------------------------------
+2021-02-12 23:58:45,965 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 20th epoch
+            Time taken      : 10m 59.11s
+            Training Loss   : 0.006613  |  Training Acc   : 80.8448%
+            Validation Loss : 0.012961  |  Validation Acc : 81.5880%
+    ---------------------------------------------------------------------------
+2021-02-12 23:58:46,346 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 21th epoch
+            Learning Rate : 0.001225
+    ---------------------------------------------------------------------------
+2021-02-13 00:09:30,650 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 21th epoch
+            Time taken      : 10m 44.30s
+            Training Loss   : 0.006179  |  Training Acc   : 82.4349%
+            Validation Loss : 0.012365  |  Validation Acc : 82.6372%
+    ---------------------------------------------------------------------------
+2021-02-13 00:09:31,033 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 22th epoch
+            Learning Rate : 0.001225
+    ---------------------------------------------------------------------------
+2021-02-13 00:20:18,784 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 22th epoch
+            Time taken      : 10m 47.75s
+            Training Loss   : 0.005991  |  Training Acc   : 83.1299%
+            Validation Loss : 0.011862  |  Validation Acc : 83.6668%
+    ---------------------------------------------------------------------------
+2021-02-13 00:20:19,150 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 23th epoch
+            Learning Rate : 0.001225
+    ---------------------------------------------------------------------------
+2021-02-13 00:31:25,805 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 23th epoch
+            Time taken      : 11m 6.65s
+            Training Loss   : 0.005821  |  Training Acc   : 83.7257%
+            Validation Loss : 0.011608  |  Validation Acc : 84.0378%
+    ---------------------------------------------------------------------------
+2021-02-13 00:31:26,210 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 24th epoch
+            Learning Rate : 0.001225
+    ---------------------------------------------------------------------------
+2021-02-13 00:42:53,685 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 24th epoch
+            Time taken      : 11m 27.48s
+            Training Loss   : 0.005672  |  Training Acc   : 84.2885%
+            Validation Loss : 0.011380  |  Validation Acc : 84.3855%
+    ---------------------------------------------------------------------------
+2021-02-13 00:42:54,099 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 25th epoch
+            Learning Rate : 0.001225
+    ---------------------------------------------------------------------------
+2021-02-13 00:54:18,557 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 25th epoch
+            Time taken      : 11m 24.46s
+            Training Loss   : 0.005539  |  Training Acc   : 84.7775%
+            Validation Loss : 0.011140  |  Validation Acc : 84.9775%
+    ---------------------------------------------------------------------------
+2021-02-13 00:54:18,928 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 26th epoch
+            Learning Rate : 0.001225
+    ---------------------------------------------------------------------------
+2021-02-13 01:05:25,285 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 26th epoch
+            Time taken      : 11m 6.36s
+            Training Loss   : 0.005401  |  Training Acc   : 85.2094%
+            Validation Loss : 0.010955  |  Validation Acc : 85.2394%
+    ---------------------------------------------------------------------------
+2021-02-13 01:05:25,656 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 27th epoch
+            Learning Rate : 0.001225
+    ---------------------------------------------------------------------------
+2021-02-13 01:16:27,195 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 27th epoch
+            Time taken      : 11m 1.54s
+            Training Loss   : 0.005270  |  Training Acc   : 85.6585%
+            Validation Loss : 0.010616  |  Validation Acc : 85.8357%
+    ---------------------------------------------------------------------------
+2021-02-13 01:16:27,599 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 28th epoch
+            Learning Rate : 0.001225
+    ---------------------------------------------------------------------------
+2021-02-13 01:27:39,333 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 28th epoch
+            Time taken      : 11m 11.73s
+            Training Loss   : 0.005162  |  Training Acc   : 86.0393%
+            Validation Loss : 0.010544  |  Validation Acc : 85.9523%
+    ---------------------------------------------------------------------------
+2021-02-13 01:27:39,679 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 29th epoch
+            Learning Rate : 0.001225
+    ---------------------------------------------------------------------------
+2021-02-13 01:38:49,783 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 29th epoch
+            Time taken      : 11m 10.10s
+            Training Loss   : 0.005054  |  Training Acc   : 86.3643%
+            Validation Loss : 0.010349  |  Validation Acc : 86.2877%
+    ---------------------------------------------------------------------------
+2021-02-13 01:38:50,190 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 30th epoch
+            Learning Rate : 0.001225
+    ---------------------------------------------------------------------------
+2021-02-13 01:49:55,431 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 30th epoch
+            Time taken      : 11m 5.24s
+            Training Loss   : 0.004930  |  Training Acc   : 86.8088%
+            Validation Loss : 0.010055  |  Validation Acc : 86.7246%
+    ---------------------------------------------------------------------------
+2021-02-13 01:49:55,797 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 31th epoch
+            Learning Rate : 0.000857
+    ---------------------------------------------------------------------------
+2021-02-13 02:01:11,264 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 31th epoch
+            Time taken      : 11m 15.47s
+            Training Loss   : 0.004670  |  Training Acc   : 87.5966%
+            Validation Loss : 0.009735  |  Validation Acc : 87.3065%
+    ---------------------------------------------------------------------------
+2021-02-13 02:01:11,652 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 32th epoch
+            Learning Rate : 0.000857
+    ---------------------------------------------------------------------------
+2021-02-13 02:12:13,437 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 32th epoch
+            Time taken      : 11m 1.79s
+            Training Loss   : 0.004558  |  Training Acc   : 87.9513%
+            Validation Loss : 0.009517  |  Validation Acc : 87.5855%
+    ---------------------------------------------------------------------------
+2021-02-13 02:12:13,849 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 33th epoch
+            Learning Rate : 0.000857
+    ---------------------------------------------------------------------------
+2021-02-13 02:22:50,142 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 33th epoch
+            Time taken      : 10m 36.29s
+            Training Loss   : 0.004480  |  Training Acc   : 88.2211%
+            Validation Loss : 0.009291  |  Validation Acc : 87.9280%
+    ---------------------------------------------------------------------------
+2021-02-13 02:22:50,492 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 34th epoch
+            Learning Rate : 0.000857
+    ---------------------------------------------------------------------------
+2021-02-13 02:32:57,983 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 34th epoch
+            Time taken      : 10m 7.49s
+            Training Loss   : 0.004398  |  Training Acc   : 88.4586%
+            Validation Loss : 0.009305  |  Validation Acc : 88.0086%
+    ---------------------------------------------------------------------------
+2021-02-13 02:32:57,985 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 35th epoch
+            Learning Rate : 0.000857
+    ---------------------------------------------------------------------------
+2021-02-13 02:43:52,651 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 35th epoch
+            Time taken      : 10m 54.67s
+            Training Loss   : 0.004331  |  Training Acc   : 88.6685%
+            Validation Loss : 0.009194  |  Validation Acc : 88.0951%
+    ---------------------------------------------------------------------------
+2021-02-13 02:43:53,031 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 36th epoch
+            Learning Rate : 0.000857
+    ---------------------------------------------------------------------------
+2021-02-13 02:55:04,198 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 36th epoch
+            Time taken      : 11m 11.17s
+            Training Loss   : 0.004268  |  Training Acc   : 88.8363%
+            Validation Loss : 0.009038  |  Validation Acc : 88.3329%
+    ---------------------------------------------------------------------------
+2021-02-13 02:55:04,610 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 37th epoch
+            Learning Rate : 0.000857
+    ---------------------------------------------------------------------------
+2021-02-13 03:06:01,375 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 37th epoch
+            Time taken      : 10m 56.76s
+            Training Loss   : 0.004192  |  Training Acc   : 89.0683%
+            Validation Loss : 0.009052  |  Validation Acc : 88.3988%
+    ---------------------------------------------------------------------------
+2021-02-13 03:06:01,375 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 38th epoch
+            Learning Rate : 0.000857
+    ---------------------------------------------------------------------------
+2021-02-13 03:17:04,987 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 38th epoch
+            Time taken      : 11m 3.61s
+            Training Loss   : 0.004144  |  Training Acc   : 89.2231%
+            Validation Loss : 0.008892  |  Validation Acc : 88.6215%
+    ---------------------------------------------------------------------------
+2021-02-13 03:17:05,371 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 39th epoch
+            Learning Rate : 0.000857
+    ---------------------------------------------------------------------------
+2021-02-13 03:28:03,719 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 39th epoch
+            Time taken      : 10m 58.35s
+            Training Loss   : 0.004071  |  Training Acc   : 89.4418%
+            Validation Loss : 0.008819  |  Validation Acc : 88.7191%
+    ---------------------------------------------------------------------------
+2021-02-13 03:28:04,109 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 40th epoch
+            Learning Rate : 0.000857
+    ---------------------------------------------------------------------------
+2021-02-13 03:39:04,481 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 40th epoch
+            Time taken      : 11m 0.37s
+            Training Loss   : 0.004018  |  Training Acc   : 89.6058%
+            Validation Loss : 0.008895  |  Validation Acc : 88.6880%
+    ---------------------------------------------------------------------------
+2021-02-13 03:39:04,481 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 41th epoch
+            Learning Rate : 0.000600
+    ---------------------------------------------------------------------------
+2021-02-13 03:50:10,814 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 41th epoch
+            Time taken      : 11m 6.33s
+            Training Loss   : 0.003839  |  Training Acc   : 90.1230%
+            Validation Loss : 0.008436  |  Validation Acc : 89.3849%
+    ---------------------------------------------------------------------------
+2021-02-13 03:50:11,255 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 42th epoch
+            Learning Rate : 0.000600
+    ---------------------------------------------------------------------------
+2021-02-13 04:01:22,166 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 42th epoch
+            Time taken      : 11m 10.91s
+            Training Loss   : 0.003759  |  Training Acc   : 90.3865%
+            Validation Loss : 0.008387  |  Validation Acc : 89.4535%
+    ---------------------------------------------------------------------------
+2021-02-13 04:01:22,714 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 43th epoch
+            Learning Rate : 0.000600
+    ---------------------------------------------------------------------------
+2021-02-13 04:12:26,094 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 43th epoch
+            Time taken      : 11m 3.38s
+            Training Loss   : 0.003696  |  Training Acc   : 90.5407%
+            Validation Loss : 0.008347  |  Validation Acc : 89.5157%
+    ---------------------------------------------------------------------------
+2021-02-13 04:12:26,561 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 44th epoch
+            Learning Rate : 0.000600
+    ---------------------------------------------------------------------------
+2021-02-13 04:23:39,124 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 44th epoch
+            Time taken      : 11m 12.56s
+            Training Loss   : 0.003657  |  Training Acc   : 90.6864%
+            Validation Loss : 0.008375  |  Validation Acc : 89.4935%
+    ---------------------------------------------------------------------------
+2021-02-13 04:23:39,124 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 45th epoch
+            Learning Rate : 0.000600
+    ---------------------------------------------------------------------------
+2021-02-13 04:34:47,680 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 45th epoch
+            Time taken      : 11m 8.56s
+            Training Loss   : 0.003619  |  Training Acc   : 90.7519%
+            Validation Loss : 0.008143  |  Validation Acc : 89.7603%
+    ---------------------------------------------------------------------------
+2021-02-13 04:34:48,087 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 46th epoch
+            Learning Rate : 0.000600
+    ---------------------------------------------------------------------------
+2021-02-13 04:45:54,475 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 46th epoch
+            Time taken      : 11m 6.39s
+            Training Loss   : 0.003578  |  Training Acc   : 90.8751%
+            Validation Loss : 0.008270  |  Validation Acc : 89.7351%
+    ---------------------------------------------------------------------------
+2021-02-13 04:45:54,476 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 47th epoch
+            Learning Rate : 0.000600
+    ---------------------------------------------------------------------------
+2021-02-13 04:57:04,704 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 47th epoch
+            Time taken      : 11m 10.23s
+            Training Loss   : 0.003528  |  Training Acc   : 91.0254%
+            Validation Loss : 0.008346  |  Validation Acc : 89.5692%
+    ---------------------------------------------------------------------------
+2021-02-13 04:57:04,705 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 48th epoch
+            Learning Rate : 0.000600
+    ---------------------------------------------------------------------------
+2021-02-13 05:08:07,294 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 48th epoch
+            Time taken      : 11m 2.59s
+            Training Loss   : 0.003506  |  Training Acc   : 91.0834%
+            Validation Loss : 0.008194  |  Validation Acc : 89.9129%
+    ---------------------------------------------------------------------------
+2021-02-13 05:08:07,295 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 49th epoch
+            Learning Rate : 0.000600
+    ---------------------------------------------------------------------------
+2021-02-13 05:19:08,055 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 49th epoch
+            Time taken      : 11m 0.76s
+            Training Loss   : 0.003456  |  Training Acc   : 91.2321%
+            Validation Loss : 0.008052  |  Validation Acc : 90.0145%
+    ---------------------------------------------------------------------------
+2021-02-13 05:19:08,433 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 50th epoch
+            Learning Rate : 0.000600
+    ---------------------------------------------------------------------------
+2021-02-13 05:30:14,870 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 50th epoch
+            Time taken      : 11m 6.44s
+            Training Loss   : 0.003419  |  Training Acc   : 91.3617%
+            Validation Loss : 0.008027  |  Validation Acc : 90.0652%
+    ---------------------------------------------------------------------------
+2021-02-13 05:30:15,271 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 51th epoch
+            Learning Rate : 0.000420
+    ---------------------------------------------------------------------------
+2021-02-13 05:41:25,986 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 51th epoch
+            Time taken      : 11m 10.72s
+            Training Loss   : 0.003270  |  Training Acc   : 91.7589%
+            Validation Loss : 0.007930  |  Validation Acc : 90.2323%
+    ---------------------------------------------------------------------------
+2021-02-13 05:41:26,376 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 52th epoch
+            Learning Rate : 0.000420
+    ---------------------------------------------------------------------------
+2021-02-13 05:52:28,299 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 52th epoch
+            Time taken      : 11m 1.92s
+            Training Loss   : 0.003223  |  Training Acc   : 91.8488%
+            Validation Loss : 0.007860  |  Validation Acc : 90.3015%
+    ---------------------------------------------------------------------------
+2021-02-13 05:52:28,731 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 53th epoch
+            Learning Rate : 0.000420
+    ---------------------------------------------------------------------------
+2021-02-13 06:03:40,746 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 53th epoch
+            Time taken      : 11m 12.02s
+            Training Loss   : 0.003181  |  Training Acc   : 91.9870%
+            Validation Loss : 0.007789  |  Validation Acc : 90.4286%
+    ---------------------------------------------------------------------------
+2021-02-13 06:03:41,112 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 54th epoch
+            Learning Rate : 0.000420
+    ---------------------------------------------------------------------------
+2021-02-13 06:14:45,171 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 54th epoch
+            Time taken      : 11m 4.06s
+            Training Loss   : 0.003145  |  Training Acc   : 92.1147%
+            Validation Loss : 0.007901  |  Validation Acc : 90.3345%
+    ---------------------------------------------------------------------------
+2021-02-13 06:14:45,172 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 55th epoch
+            Learning Rate : 0.000420
+    ---------------------------------------------------------------------------
+2021-02-13 06:25:56,874 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 55th epoch
+            Time taken      : 11m 11.70s
+            Training Loss   : 0.003133  |  Training Acc   : 92.1289%
+            Validation Loss : 0.007979  |  Validation Acc : 90.2803%
+    ---------------------------------------------------------------------------
+2021-02-13 06:25:56,874 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 56th epoch
+            Learning Rate : 0.000420
+    ---------------------------------------------------------------------------
+2021-02-13 06:37:03,608 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 56th epoch
+            Time taken      : 11m 6.73s
+            Training Loss   : 0.003094  |  Training Acc   : 92.2461%
+            Validation Loss : 0.007982  |  Validation Acc : 90.3231%
+    ---------------------------------------------------------------------------
+2021-02-13 06:37:03,618 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 57th epoch
+            Learning Rate : 0.000420
+    ---------------------------------------------------------------------------
+2021-02-13 06:48:14,332 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 57th epoch
+            Time taken      : 11m 10.71s
+            Training Loss   : 0.003066  |  Training Acc   : 92.3035%
+            Validation Loss : 0.007861  |  Validation Acc : 90.3945%
+    ---------------------------------------------------------------------------
+2021-02-13 06:48:14,333 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 58th epoch
+            Learning Rate : 0.000420
+    ---------------------------------------------------------------------------
+2021-02-13 06:58:36,594 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 58th epoch
+            Time taken      : 10m 22.26s
+            Training Loss   : 0.003044  |  Training Acc   : 92.3729%
+            Validation Loss : 0.007945  |  Validation Acc : 90.3948%
+    ---------------------------------------------------------------------------
+2021-02-13 06:58:36,594 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 59th epoch
+            Learning Rate : 0.000420
+    ---------------------------------------------------------------------------
+2021-02-13 07:08:25,470 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 59th epoch
+            Time taken      : 9m 48.88s
+            Training Loss   : 0.003017  |  Training Acc   : 92.4799%
+            Validation Loss : 0.007950  |  Validation Acc : 90.4314%
+    ---------------------------------------------------------------------------
+2021-02-13 07:08:25,470 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 60th epoch
+            Learning Rate : 0.000420
+    ---------------------------------------------------------------------------
+2021-02-13 07:18:14,930 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 60th epoch
+            Time taken      : 9m 49.46s
+            Training Loss   : 0.002976  |  Training Acc   : 92.5770%
+            Validation Loss : 0.007848  |  Validation Acc : 90.5114%
+    ---------------------------------------------------------------------------
+2021-02-13 07:18:14,930 : Early stopping condition met --- TRAINING STOPPED
+2021-02-13 07:18:14,930 : Best score: -0.007788775806427002
+2021-02-13 13:41:35,286 : START
+2021-02-13 13:41:35,297 : Global Device: cuda:1
+2021-02-13 13:41:35,297 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=1, epochs=100, fold_k=1, learning_rate=0.0029, mode='test', model_index=1, patience=10, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.0, val_ratio=0.1, verbose=100)
+2021-02-13 13:41:35,297 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-13 13:42:04,779 : Trainset length: 45000, Valset length: 5000
+2021-02-13 13:42:05,285 : Not using pretrained model.
+2021-02-13 13:42:08,228 : Inference using model of fold (1/1)
+2021-02-13 13:43:26,323 : Result file save at: /home/sks/COMPETITION/DACON/computer_vision2/submit/submission_model_1.csv
+2021-02-13 15:33:47,938 : START
+2021-02-13 15:33:47,949 : Global Device: cuda:1
+2021-02-13 15:33:47,949 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=1, epochs=100, fold_k=1, learning_rate=0.0029, mode='test', model_index=1, patience=10, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.0, val_ratio=0.1, verbose=100)
+2021-02-13 15:33:47,949 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-13 15:34:14,548 : Trainset length: 45000, Valset length: 5000
+2021-02-13 15:34:15,026 : Not using pretrained model.
+2021-02-13 15:34:17,943 : Inference using model of fold (1/1)
+2021-02-13 15:35:34,230 : Result file save at: /home/sks/COMPETITION/DACON/computer_vision2/submit/submission_model_1.csv

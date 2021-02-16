@@ -1,0 +1,28 @@
+2021-02-12 23:01:48,306 : START
+2021-02-12 23:01:48,335 : Global Device: cuda:1
+2021-02-12 23:01:48,335 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_resnet50', batch_size=64, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=1, epochs=80, fold_k=1, learning_rate=0.0025, mode='train', model_index=3, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, val_ratio=0.25, verbose=100)
+2021-02-12 23:01:48,335 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-12 23:02:14,984 : Trainset length: 37500, Valset length: 12500
+2021-02-12 23:02:14,985 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_resnet50_ckpt.pth
+2021-02-12 23:02:21,405 : Training on Fold (1/1)
+2021-02-12 23:02:21,643 : Training begins... Epochs = 80
+2021-02-12 23:02:21,643 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 1th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------
+2021-02-12 23:13:35,386 : 
+    ---------------------------------------------------------------------------
+        Phase SUMMARY
+            Finished phase  : 1th epoch
+            Time taken      : 11m 13.74s
+            Training Loss   : 0.013279  |  Training Acc   : 53.5294%
+            Validation Loss : 0.021390  |  Validation Acc : 55.4865%
+    ---------------------------------------------------------------------------
+2021-02-12 23:13:35,585 : 
+    ---------------------------------------------------------------------------
+        Phase INFO
+            Current phase : 2th epoch
+            Learning Rate : 0.002500
+    ---------------------------------------------------------------------------

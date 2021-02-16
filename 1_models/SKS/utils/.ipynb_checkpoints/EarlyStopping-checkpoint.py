@@ -4,7 +4,7 @@ import torch
 
 class EarlyStopping:
     """주어진 patience 이후로 validation loss가 개선되지 않으면 학습을 조기 중지"""
-    def __init__(self, patience=7, verbose=False, delta=0, path='./early_stopped.pth'):
+    def __init__(self, patience=7, verbose=False, delta=0, fold_k=1, path='./early_stopped.pth'):
         """
         Args:
             patience (int): validation loss가 개선된 후 기다리는 기간
@@ -27,7 +27,7 @@ class EarlyStopping:
         if os.path.splitext(path)[-1] == '.pth':
             self.path = path
         else:
-            self.path = os.path.join(path, 'early_stopped.pth')
+            self.path = os.path.join(path, f'early_stopped_fold{fold_k}.pth')
 
         
     def __call__(self, val_loss, model):

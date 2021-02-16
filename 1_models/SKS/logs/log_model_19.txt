@@ -1,0 +1,19 @@
+2021-02-11 00:51:53,170 : START
+2021-02-11 00:51:53,180 : Global Device: cuda:0
+2021-02-11 00:51:53,181 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=1, learning_rate=0.0029, mode='test', model_index=19, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-11 00:51:53,181 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-11 00:52:28,419 : Trainset length: 45000, Valset length: 5000
+2021-02-11 00:52:33,365 : Inference using model of fold (1/1)
+2021-02-11 00:53:25,155 : START
+2021-02-11 00:53:25,172 : Global Device: cuda:0
+2021-02-11 00:53:25,172 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=1, learning_rate=0.0029, mode='test', model_index=19, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-11 00:53:25,172 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-11 00:53:58,188 : Trainset length: 45000, Valset length: 5000
+2021-02-11 00:54:03,215 : Inference using model of fold (1/1)
+2021-02-11 00:57:05,113 : START
+2021-02-11 00:57:05,171 : Global Device: cuda:0
+2021-02-11 00:57:05,172 : Parsed Args: Namespace(base_dir='/home/sks/COMPETITION/DACON/computer_vision2', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='denoised', device_index=0, epochs=100, fold_k=1, learning_rate=0.0029, mode='test', model_index=19, patience=10, pretrained_model='resnet50', pretrained_weights_path='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=32, threshold=0.5, val_ratio=0.1, verbose=100)
+2021-02-11 00:57:05,172 : Data used: train: dataset/denoised_trainset_weak, test: dataset/denoised_testset_weak
+2021-02-11 00:57:38,239 : Trainset length: 45000, Valset length: 5000
+2021-02-11 00:57:43,385 : Inference using model of fold (1/1)
+2021-02-11 00:59:20,573 : Result file save at: /home/sks/COMPETITION/DACON/computer_vision2/submit/submission_model_19.csv
