@@ -43,7 +43,7 @@ python main.py --mode=train \
 ```bash
 python main.py --mode=test \
                --model_index=1 \ # inference 진행하려는 model index
-               --fold_k=1 \ # inference에 쓰는 모델과 동일한 fold 값으로 설정 (중요)
+               --fold_k=1 \ # inference에 쓰는 모델과 동일한 fold 값으로 설정 (중요) 2이상인 경우 각 fold별 모델로 inference해서 평균함(앙상블)
                --data_type=original \ # 학습한 모델과 동일하게 (중요)
                --base_model=plain_efficientnetb4 \ # 마찬가지로 학습한 모델과 동일하게... 아니면 오류남
                --device_index=1 \
