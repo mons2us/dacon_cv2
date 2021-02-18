@@ -1,5 +1,3 @@
-# Usage:
-
 ## 주의사항
 
 ### (1) 폴더구조
@@ -21,6 +19,7 @@ lr scheduler나 optimizer 같은 경우 src/train.py에서 직접 수정하면 �
 현재는 multisteplr 사용하고 있음<br>
 
 
+## Usage:
 ### TRAINING
 ```bash
 cd {dir_to_base_folder} # git pull 한 경우 ../1_models/SKS/ 로 이동해서 아래 진행
