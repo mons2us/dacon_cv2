@@ -21,7 +21,34 @@ from utils.EarlyStopping import EarlyStopping
 from utils.dataloader import CustomDataLoader
 from utils.radams import RAdam
 from tqdm import tqdm
+import IPython
 
+
+class CustomSmoothedLoss:
+    def __init__(self):
+        self.base_loss_function = nn.MultiLabelSoftMarginLoss()
+        
+    def __call__(self, pred, gt, eps=0.1):
+        num_classes = 26
+        eps_applied = gt*(1-eps)
+        smoothed_gt = torch.where(eps_applied==0.0, eps, eps_applied)
+        
+        return self.base_loss_function(pred, smoothed_gt)
+
+    
+class CustomLoss:
+    def __init__(self):
+        self.base_loss_function = nn.MultiLabelSoftMarginLoss()
+        
+    def __call__(self, pred, gt):
+        loss1 = self.base_loss_function(pred, gt)
+        
+        sum_preds = torch.sum(pred > 0.5, axis=-1)
+        loss2 = torch.mean(torch.max(torch.zeros_like(sum_preds), 10 - sum_preds).float())
+        #IPython.embed(); exit(1)
+        
+        return loss1 + 0.01*loss2
+    
 
 def train_model(input_model, fold_k, model_save_path, args, logger, *loaders):
     
@@ -39,7 +66,7 @@ def train_model(input_model, fold_k, model_save_path, args, logger, *loaders):
     
     loss_function = nn.MultiLabelSoftMarginLoss()
     #loss_function = nn.BCEWithLogitsLoss()
-    #loss_function = nn.BCELoss()
+    #loss_function = CustomLoss()
     
     #optimizer = optim.Adam(model.parameters(), lr=lr)
     optimizer = RAdam(model.parameters(), lr=learning_rate, betas=(0.9, 0.999), weight_decay=1e-4)
@@ -107,7 +134,8 @@ def train_model(input_model, fold_k, model_save_path, args, logger, *loaders):
         train_tmp_corrects_sum = 0
         train_tmp_loss_sum = 0.0
         for idx, (train_X, train_Y) in enumerate(train_loader):
-
+            
+            #IPython.embed(); exit(1)
             train_tmp_num += len(train_Y)
             
             optimizer.zero_grad()

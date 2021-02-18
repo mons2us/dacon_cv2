@@ -1,0 +1,341 @@
+2021-02-17 16:43:27,547 : START
+2021-02-17 16:43:27,555 : Global Device: cuda:0
+2021-02-17 16:43:27,556 : Parsed Args: Namespace(augmix=False, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb5', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=12, patience=7, pretrained=True, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-17 16:43:27,556 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-17 16:43:43,965 : Trainset length: 37500, Valset length: 12500
+2021-02-17 16:43:44,330 : Using pretrained model. Loading weights from /home/sks/COMPETITION/DACON/computer_vision2/pretrained_model/plain_efficientnetb5_epoch9_ckpt.pth
+2021-02-17 16:43:49,946 : Training on Fold (1/1)
+2021-02-17 16:43:50,066 : Training begins... Epochs = 80
+2021-02-17 16:43:50,066 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 1th epoch
+        Learning Rate : 0.000167
+---------------------------------------------------------------------------
+2021-02-17 16:57:15,871 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 1th epoch
+        Time taken      : 13m 25.81s
+        Training Loss   : 0.024730  |  Training Acc   : 51.0399%
+        Validation Loss : 0.021988  |  Validation Acc : 51.9502%
+---------------------------------------------------------------------------
+
+2021-02-17 16:57:16,017 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 2th epoch
+        Learning Rate : 0.000333
+---------------------------------------------------------------------------
+2021-02-17 17:11:06,261 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 2th epoch
+        Time taken      : 13m 50.24s
+        Training Loss   : 0.021758  |  Training Acc   : 52.2639%
+        Validation Loss : 0.021661  |  Validation Acc : 52.8732%
+---------------------------------------------------------------------------
+
+2021-02-17 17:11:06,637 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 3th epoch
+        Learning Rate : 0.000500
+---------------------------------------------------------------------------
+2021-02-17 17:24:56,313 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 3th epoch
+        Time taken      : 13m 49.68s
+        Training Loss   : 0.021595  |  Training Acc   : 53.4006%
+        Validation Loss : 0.021490  |  Validation Acc : 54.5123%
+---------------------------------------------------------------------------
+
+2021-02-17 17:24:56,685 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 4th epoch
+        Learning Rate : 0.000667
+---------------------------------------------------------------------------
+2021-02-17 17:38:47,967 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 4th epoch
+        Time taken      : 13m 51.28s
+        Training Loss   : 0.021353  |  Training Acc   : 55.4099%
+        Validation Loss : 0.021113  |  Validation Acc : 56.9637%
+---------------------------------------------------------------------------
+
+2021-02-17 17:38:48,393 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 5th epoch
+        Learning Rate : 0.000833
+---------------------------------------------------------------------------
+2021-02-17 17:52:07,538 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 5th epoch
+        Time taken      : 13m 19.15s
+        Training Loss   : 0.020903  |  Training Acc   : 58.0249%
+        Validation Loss : 0.020393  |  Validation Acc : 60.6065%
+---------------------------------------------------------------------------
+
+2021-02-17 17:52:07,913 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 6th epoch
+        Learning Rate : 0.001000
+---------------------------------------------------------------------------
+2021-02-17 18:05:22,956 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 6th epoch
+        Time taken      : 13m 15.04s
+        Training Loss   : 0.020172  |  Training Acc   : 61.2648%
+        Validation Loss : 0.019566  |  Validation Acc : 63.8511%
+---------------------------------------------------------------------------
+
+2021-02-17 18:05:23,323 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 7th epoch
+        Learning Rate : 0.001167
+---------------------------------------------------------------------------
+2021-02-17 18:18:44,185 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 7th epoch
+        Time taken      : 13m 20.86s
+        Training Loss   : 0.019428  |  Training Acc   : 64.1226%
+        Validation Loss : 0.018773  |  Validation Acc : 66.5440%
+---------------------------------------------------------------------------
+
+2021-02-17 18:18:44,553 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 8th epoch
+        Learning Rate : 0.001333
+---------------------------------------------------------------------------
+2021-02-17 18:32:15,757 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 8th epoch
+        Time taken      : 13m 31.20s
+        Training Loss   : 0.018589  |  Training Acc   : 66.9055%
+        Validation Loss : 0.017914  |  Validation Acc : 69.2677%
+---------------------------------------------------------------------------
+
+2021-02-17 18:32:16,159 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 9th epoch
+        Learning Rate : 0.001500
+---------------------------------------------------------------------------
+2021-02-17 18:45:52,820 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 9th epoch
+        Time taken      : 13m 36.66s
+        Training Loss   : 0.017800  |  Training Acc   : 69.2692%
+        Validation Loss : 0.017049  |  Validation Acc : 71.8625%
+---------------------------------------------------------------------------
+
+2021-02-17 18:45:53,198 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 10th epoch
+        Learning Rate : 0.001667
+---------------------------------------------------------------------------
+2021-02-17 18:59:32,670 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 10th epoch
+        Time taken      : 13m 39.47s
+        Training Loss   : 0.017007  |  Training Acc   : 71.5447%
+        Validation Loss : 0.016320  |  Validation Acc : 73.8631%
+---------------------------------------------------------------------------
+
+2021-02-17 18:59:33,038 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 11th epoch
+        Learning Rate : 0.001833
+---------------------------------------------------------------------------
+2021-02-17 19:13:11,397 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 11th epoch
+        Time taken      : 13m 38.36s
+        Training Loss   : 0.016265  |  Training Acc   : 73.5673%
+        Validation Loss : 0.015675  |  Validation Acc : 75.6338%
+---------------------------------------------------------------------------
+
+2021-02-17 19:13:11,763 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 12th epoch
+        Learning Rate : 0.002000
+---------------------------------------------------------------------------
+2021-02-17 19:26:52,009 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 12th epoch
+        Time taken      : 13m 40.25s
+        Training Loss   : 0.015545  |  Training Acc   : 75.3028%
+        Validation Loss : 0.014988  |  Validation Acc : 77.1502%
+---------------------------------------------------------------------------
+
+2021-02-17 19:26:52,402 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 13th epoch
+        Learning Rate : 0.002000
+---------------------------------------------------------------------------
+2021-02-17 19:40:30,430 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 13th epoch
+        Time taken      : 13m 38.03s
+        Training Loss   : 0.014842  |  Training Acc   : 76.9271%
+        Validation Loss : 0.014437  |  Validation Acc : 78.4326%
+---------------------------------------------------------------------------
+
+2021-02-17 19:40:30,824 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 14th epoch
+        Learning Rate : 0.002000
+---------------------------------------------------------------------------
+2021-02-17 19:54:21,302 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 14th epoch
+        Time taken      : 13m 50.48s
+        Training Loss   : 0.014227  |  Training Acc   : 78.2128%
+        Validation Loss : 0.014075  |  Validation Acc : 79.2452%
+---------------------------------------------------------------------------
+
+2021-02-17 19:54:21,664 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 15th epoch
+        Learning Rate : 0.002000
+---------------------------------------------------------------------------
+2021-02-17 20:07:54,658 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 15th epoch
+        Time taken      : 13m 32.99s
+        Training Loss   : 0.013631  |  Training Acc   : 79.3685%
+        Validation Loss : 0.013731  |  Validation Acc : 80.0182%
+---------------------------------------------------------------------------
+
+2021-02-17 20:07:55,124 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 16th epoch
+        Learning Rate : 0.002000
+---------------------------------------------------------------------------
+2021-02-17 20:21:41,627 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 16th epoch
+        Time taken      : 13m 46.50s
+        Training Loss   : 0.013108  |  Training Acc   : 80.4241%
+        Validation Loss : 0.013471  |  Validation Acc : 80.5342%
+---------------------------------------------------------------------------
+
+2021-02-17 20:21:42,003 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 17th epoch
+        Learning Rate : 0.002000
+---------------------------------------------------------------------------
+2021-02-17 20:34:49,979 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 17th epoch
+        Time taken      : 13m 7.98s
+        Training Loss   : 0.012694  |  Training Acc   : 81.1439%
+        Validation Loss : 0.013312  |  Validation Acc : 80.8665%
+---------------------------------------------------------------------------
+
+2021-02-17 20:34:50,381 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 18th epoch
+        Learning Rate : 0.002000
+---------------------------------------------------------------------------
+2021-02-17 20:47:03,466 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 18th epoch
+        Time taken      : 12m 13.09s
+        Training Loss   : 0.012208  |  Training Acc   : 82.0062%
+        Validation Loss : 0.013226  |  Validation Acc : 81.2452%
+---------------------------------------------------------------------------
+
+2021-02-17 20:47:03,881 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 19th epoch
+        Learning Rate : 0.002000
+---------------------------------------------------------------------------
+2021-02-17 20:59:21,065 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 19th epoch
+        Time taken      : 12m 17.18s
+        Training Loss   : 0.011782  |  Training Acc   : 82.7843%
+        Validation Loss : 0.013235  |  Validation Acc : 81.4154%
+---------------------------------------------------------------------------
+
+2021-02-17 20:59:21,066 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 20th epoch
+        Learning Rate : 0.002000
+---------------------------------------------------------------------------
+2021-02-17 21:11:42,065 : 
+---------------------------------------------------------------------------
+    SUMMARY
+        Finished phase  : 20th epoch
+        Time taken      : 12m 21.00s
+        Training Loss   : 0.011390  |  Training Acc   : 83.4273%
+        Validation Loss : 0.013061  |  Validation Acc : 81.7551%
+---------------------------------------------------------------------------
+
+2021-02-17 21:11:42,444 : 
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Current fold  : Fold (1)
+        Current phase : 21th epoch
+        Learning Rate : 0.002000
+---------------------------------------------------------------------------
+2021-02-17 21:19:08,766 : START
+2021-02-17 21:19:08,774 : Global Device: cuda:0
+2021-02-17 21:19:08,774 : Parsed Args: Namespace(augmix=False, base_dir='/home/sks/COMPETITION/DACON/computer_vision2', base_model='plain_efficientnetb4', batch_size=32, ckpt_path='/home/sks/COMPETITION/DACON/computer_vision2/ckpt', cuda=True, data_type='original', device_index=0, epochs=80, fold_k=1, learning_rate=0.002, mode='train', model_index=12, patience=7, pretrained=False, pretrained_weights_dir='/home/sks/COMPETITION/DACON/computer_vision2/pretrained_model', seed=227182, threshold=0.0, tta=False, val_ratio=0.25, verbose=100)
+2021-02-17 21:19:08,774 : Data used: train: dataset/trainset, test: dataset/testset
+2021-02-17 21:19:24,775 : Trainset length: 37500, Valset length: 12500
+2021-02-17 21:19:24,967 : Not using pretrained model.

@@ -111,3 +111,337 @@
 2021-02-12 20:42:50,849 : Learning Rate : 0.003079
 2021-02-12 21:07:41,538 : Epoch: 21 | Training Loss: 0.0059 | Val Loss: 0.0057 | Train Acc: 93.47% | Val Acc: 93.91%
 2021-02-12 21:07:41,539 : Early stopping condition met --- TRAINING STOPPED
+2021-02-16 22:03:00,630 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-16 22:04:18,168 : Training begins: epochs=70
+2021-02-16 22:04:18,169 : Epoch: 1
+2021-02-16 22:04:18,173 : Learning Rate : 0.000200
+2021-02-16 22:37:01,401 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-16 22:37:33,183 : Training begins: epochs=20
+2021-02-16 22:37:33,184 : Epoch: 1
+2021-02-16 22:37:33,187 : Learning Rate : 0.000667
+2021-02-17 00:29:19,164 : Epoch: 1 | Training Loss: 0.0151 | Val Loss: 0.0078 | Train Acc: 84.93% | Val Acc: 91.74%
+2021-02-17 00:29:19,378 : Epoch: 2
+2021-02-17 00:29:22,161 : Learning Rate : 0.001333
+2021-02-17 02:21:22,929 : Epoch: 2 | Training Loss: 0.0096 | Val Loss: 0.0088 | Train Acc: 90.20% | Val Acc: 91.21%
+2021-02-17 02:21:22,930 : Epoch: 3
+2021-02-17 02:21:23,177 : Learning Rate : 0.002000
+2021-02-17 04:14:06,522 : Epoch: 3 | Training Loss: 0.0090 | Val Loss: 0.0076 | Train Acc: 90.78% | Val Acc: 92.32%
+2021-02-17 04:14:06,941 : Epoch: 4
+2021-02-17 04:14:07,202 : Learning Rate : 0.002000
+2021-02-17 06:01:22,628 : Epoch: 4 | Training Loss: 0.0076 | Val Loss: 0.0070 | Train Acc: 92.04% | Val Acc: 92.25%
+2021-02-17 06:01:22,629 : Epoch: 5
+2021-02-17 06:01:22,872 : Learning Rate : 0.002000
+2021-02-17 07:46:09,101 : Epoch: 5 | Training Loss: 0.0068 | Val Loss: 0.0064 | Train Acc: 92.70% | Val Acc: 93.12%
+2021-02-17 07:46:09,487 : Epoch: 6
+2021-02-17 07:46:09,738 : Learning Rate : 0.002000
+2021-02-17 09:31:20,951 : Epoch: 6 | Training Loss: 0.0064 | Val Loss: 0.0060 | Train Acc: 93.12% | Val Acc: 93.66%
+2021-02-17 09:31:21,353 : Epoch: 7
+2021-02-17 09:31:21,597 : Learning Rate : 0.001200
+2021-02-17 11:17:22,019 : Epoch: 7 | Training Loss: 0.0051 | Val Loss: 0.0054 | Train Acc: 94.28% | Val Acc: 94.18%
+2021-02-17 11:17:22,412 : Epoch: 8
+2021-02-17 11:17:22,659 : Learning Rate : 0.001200
+2021-02-17 13:03:41,522 : Epoch: 8 | Training Loss: 0.0049 | Val Loss: 0.0049 | Train Acc: 94.50% | Val Acc: 94.54%
+2021-02-17 13:03:41,934 : Epoch: 9
+2021-02-17 13:03:42,176 : Learning Rate : 0.000720
+2021-02-17 14:49:15,948 : Epoch: 9 | Training Loss: 0.0043 | Val Loss: 0.0045 | Train Acc: 95.12% | Val Acc: 95.05%
+2021-02-17 14:49:16,355 : Epoch: 10
+2021-02-17 14:49:16,612 : Learning Rate : 0.000720
+2021-02-17 16:34:36,275 : Epoch: 10 | Training Loss: 0.0041 | Val Loss: 0.0048 | Train Acc: 95.25% | Val Acc: 94.92%
+2021-02-17 16:34:36,276 : Epoch: 11
+2021-02-17 16:34:36,526 : Learning Rate : 0.000720
+2021-02-17 18:30:34,547 : Epoch: 11 | Training Loss: 0.0040 | Val Loss: 0.0045 | Train Acc: 95.38% | Val Acc: 94.94%
+2021-02-17 18:30:34,549 : Epoch: 12
+2021-02-17 18:30:34,800 : Learning Rate : 0.000720
+2021-02-17 20:26:52,148 : Epoch: 12 | Training Loss: 0.0039 | Val Loss: 0.0047 | Train Acc: 95.40% | Val Acc: 94.81%
+2021-02-17 20:26:52,149 : Epoch: 13
+2021-02-17 20:26:52,422 : Learning Rate : 0.000432
+2021-02-17 20:28:05,440 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:28:44,717 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:28:53,030 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:28:57,317 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:29:01,488 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:31:46,498 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:36:18,060 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:36:35,386 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:36:39,191 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:36:42,607 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:36:49,936 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:36:54,243 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:36:57,097 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:37:05,273 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:37:09,977 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:37:16,620 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:38:45,964 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:38:50,089 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:38:55,165 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:38:56,733 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:38:57,609 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:38:58,474 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:38:59,389 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:00,508 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:01,629 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:03,320 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:05,083 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:06,644 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:08,024 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:09,860 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:10,808 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:11,715 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:12,771 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:13,862 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:18,364 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:39,624 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:39:48,676 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:40:36,728 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:41:06,768 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:41:12,365 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:41:14,572 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:41:16,057 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:41:17,738 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:43:19,844 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:43:24,062 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:44:15,351 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:44:41,351 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:45:56,897 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:47:42,184 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:48:01,221 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:50:46,233 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:50:56,814 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:51:28,719 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:51:38,780 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:51:44,189 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:52:24,948 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:55:31,110 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:56:00,718 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:56:30,817 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:56:38,504 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:56:45,641 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:56:52,221 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:57:01,511 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:57:09,729 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:57:14,274 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:57:22,817 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:57:29,105 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:57:36,406 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:57:43,541 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:57:56,718 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:58:03,782 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:58:15,651 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:58:23,361 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:58:29,060 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:58:36,760 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:58:49,986 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:58:58,378 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:59:04,485 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:59:18,909 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:59:33,727 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:59:37,858 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:59:46,059 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 20:59:54,051 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:00:01,613 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:00:05,113 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:00:10,890 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:00:29,573 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:00:33,056 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:00:37,980 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:00:47,619 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:00:55,967 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:01:04,686 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:01:13,797 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:01:19,482 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:01:25,103 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:01:44,011 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:01:49,875 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:02:03,529 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:02:12,526 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:02:19,661 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:02:29,465 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:02:38,858 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:02:46,499 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:02:53,473 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:03:25,382 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:03:33,140 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:03:38,722 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:03:50,916 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:03:56,476 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:04:05,253 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:04:12,790 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:04:21,268 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:04:25,805 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:04:31,808 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:04:49,005 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:04:53,900 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:05:04,480 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:11:28,093 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:11:35,602 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:24:14,218 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:24:28,170 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:24:37,392 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:24:47,397 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:25:08,254 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:25:20,695 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:25:25,649 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:25:33,359 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:25:43,904 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:25:50,201 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:25:55,743 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:26:10,179 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:26:16,416 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:26:30,103 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:26:35,324 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:26:43,689 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:26:49,214 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:26:57,103 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:27:01,820 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:27:14,868 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:27:23,444 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:27:29,865 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:27:38,330 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:27:54,281 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:28:12,861 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:28:20,562 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:28:26,441 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:29:45,988 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:29:52,352 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:29:58,524 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:30:03,150 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:31:39,301 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:35:01,918 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:19,659 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:21,301 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:25,346 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:26,700 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:27,281 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:27,665 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:28,290 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:28,789 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:29,805 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:50,007 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:53,576 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:37:57,102 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:38:18,517 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:38:28,013 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:38:42,733 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:38:51,266 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:38:56,304 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:39:01,683 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:39:07,599 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:39:12,256 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:39:39,721 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:39:52,751 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:40:00,926 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:40:46,130 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:41:06,745 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:41:11,978 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:41:21,657 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:41:28,378 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:41:33,248 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:41:37,008 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:41:45,240 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:41:53,831 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:41:59,006 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:42:05,138 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:46:52,960 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:47:08,228 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:47:16,825 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:47:24,424 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:47:32,740 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:47:38,840 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:47:59,482 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:11,368 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:18,074 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:20,056 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:20,967 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:21,840 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:22,756 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:23,594 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:24,520 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:25,293 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:26,117 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:26,976 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:27,777 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:31,075 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:49,590 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:53,620 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:54,977 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:55,859 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:56,658 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:57,546 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:48:59,165 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:49:00,136 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:50:49,543 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:50:52,850 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:51:07,112 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:51:18,174 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:51:26,613 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:51:34,488 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:51:40,654 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:51:46,059 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:51:54,069 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:52:01,854 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:52:07,394 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:52:13,747 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:52:22,279 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:52:28,240 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:52:36,648 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:52:42,735 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:52:52,670 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:54:25,132 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:54:38,136 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:54:49,437 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:54:57,784 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:55:18,253 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:55:23,767 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:55:29,982 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:55:36,432 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:55:37,560 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:55:38,624 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:57:42,110 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:58:00,459 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:58:02,821 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:58:05,850 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:58:07,829 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:58:10,269 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-17 21:58:59,615 : Training begins: epochs=20
+2021-02-17 21:58:59,617 : Epoch: 1
+2021-02-17 21:58:59,620 : Learning Rate : 0.000667
+2021-02-17 23:38:42,970 : Epoch: 1 | Training Loss: 0.0207 | Val Loss: 0.0105 | Train Acc: 79.47% | Val Acc: 89.47%
+2021-02-17 23:38:43,140 : Epoch: 2
+2021-02-17 23:38:46,346 : Learning Rate : 0.001333
+2021-02-18 01:32:45,323 : Epoch: 2 | Training Loss: 0.0131 | Val Loss: 0.0101 | Train Acc: 86.78% | Val Acc: 89.89%
+2021-02-18 01:32:45,596 : Epoch: 3
+2021-02-18 01:32:45,817 : Learning Rate : 0.002000
+2021-02-18 02:56:24,643 : Epoch: 3 | Training Loss: 0.0124 | Val Loss: 0.0094 | Train Acc: 87.52% | Val Acc: 90.31%
+2021-02-18 02:56:24,923 : Epoch: 4
+2021-02-18 02:56:25,131 : Learning Rate : 0.002000
+2021-02-18 04:19:32,991 : Epoch: 4 | Training Loss: 0.0106 | Val Loss: 0.0090 | Train Acc: 89.04% | Val Acc: 90.78%
+2021-02-18 04:19:33,256 : Epoch: 5
+2021-02-18 04:19:33,436 : Learning Rate : 0.002000
+2021-02-18 05:42:22,539 : Epoch: 5 | Training Loss: 0.0098 | Val Loss: 0.0082 | Train Acc: 89.97% | Val Acc: 91.51%
+2021-02-18 05:42:22,796 : Epoch: 6
+2021-02-18 05:42:22,978 : Learning Rate : 0.002000
+2021-02-18 07:05:02,275 : Epoch: 6 | Training Loss: 0.0091 | Val Loss: 0.0085 | Train Acc: 90.45% | Val Acc: 91.31%
+2021-02-18 07:05:02,276 : Epoch: 7
+2021-02-18 07:05:02,497 : Learning Rate : 0.001000
+2021-02-18 08:29:06,843 : Epoch: 7 | Training Loss: 0.0073 | Val Loss: 0.0065 | Train Acc: 92.09% | Val Acc: 92.81%
+2021-02-18 08:29:07,150 : Epoch: 8
+2021-02-18 08:29:07,372 : Learning Rate : 0.001000
+2021-02-18 09:55:05,091 : Epoch: 8 | Training Loss: 0.0071 | Val Loss: 0.0065 | Train Acc: 92.31% | Val Acc: 92.94%
+2021-02-18 09:55:05,352 : Epoch: 9
+2021-02-18 09:55:05,567 : Learning Rate : 0.001000
+2021-02-18 11:20:51,270 : Epoch: 9 | Training Loss: 0.0069 | Val Loss: 0.0063 | Train Acc: 92.45% | Val Acc: 93.12%
+2021-02-18 11:20:51,545 : Epoch: 10
+2021-02-18 11:20:51,745 : Learning Rate : 0.000500
+2021-02-18 12:47:37,835 : Epoch: 10 | Training Loss: 0.0061 | Val Loss: 0.0057 | Train Acc: 93.20% | Val Acc: 93.71%
+2021-02-18 12:47:38,104 : Epoch: 11
+2021-02-18 12:47:38,312 : Learning Rate : 0.000500
+2021-02-18 13:47:46,027 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-18 13:49:00,203 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-18 13:49:20,351 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-18 13:49:29,607 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-18 13:49:37,224 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-18 13:49:43,298 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-18 13:49:54,181 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-18 13:49:55,180 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-18 13:49:56,030 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2021-02-18 13:49:56,888 : Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).

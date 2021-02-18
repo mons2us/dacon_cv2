@@ -2,7 +2,7 @@ import os
 import torch
 from torch import nn
 import torchvision
-from src.model import PlainResnet50, CustomResnet50, PlainEfficientnetB4
+from src.model import PlainResnet50, CustomResnet50, PlainEfficientnetB4, PlainEfficientnetB5
 
 
 class CallModel():
@@ -20,6 +20,10 @@ class CallModel():
         elif model_type == 'plain_efficientnetb4':
             base_model = PlainEfficientnetB4()
             weight_path = os.path.join(path, 'plain_efficientnetb4_ckpt.pth')
+            
+        elif model_type == 'plain_efficientnetb5':
+            base_model = PlainEfficientnetB5()
+            weight_path = os.path.join(path, 'plain_efficientnetb5_epoch9_ckpt.pth')
             
         else:
             raise Exception(f"No such model type: {model_type}")
