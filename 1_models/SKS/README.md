@@ -9,6 +9,12 @@ dataset 폴더에
 
 이외 폴더 구조는 동일하게 하면 됨
 
+
+다른 모델을 사용하는 경우,
+src/model.py에 해당 모델을 추가하면 되고(+import)
+utils/call_model.py에 앞서와 동일하게 코드 추가하면 됨.
+
+
 ### TRAINING
 ```bash
 cd {dir_to_base_folder} # git pull 한 경우 ../1_models/SKS/ 로 이동해서 아래 진행
