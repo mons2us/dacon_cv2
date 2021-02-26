@@ -8,7 +8,7 @@ from .imageprocess import image_transformer, tta_transformer, image_processor
 
 class CustomDataLoader():
     
-    def __init__(self, img_dir=None, label_dir=None, train=True, row_index=None, device=None, augmix=True, tta=False, angle=None):
+    def __init__(self, img_dir=None, label_dir=None, train=True, row_index=None, device=None, tta=False, angle=None):
         """
         Arguments:
         img_dir  : Where train dataset is located, e.g. /loc/of/your/path/trainset
@@ -35,9 +35,6 @@ class CustomDataLoader():
         # Set device
         self.device = device
         
-        # Augmix
-        self.augmix = augmix
-        
         # TTA(inference)
         self.tta = tta
         self.angle = angle
@@ -62,7 +59,7 @@ class CustomDataLoader():
         pil_image = Image.open(image_path).convert('RGB')
         
         if not self.tta:
-            fin_image = image_transformer(pil_image, self.augmix, self.train)
+            fin_image = image_transformer(pil_image, self.train)
         else:
             fin_image = tta_transformer(pil_image, self.angle)
 

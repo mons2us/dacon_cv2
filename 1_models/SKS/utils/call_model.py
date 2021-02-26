@@ -2,8 +2,8 @@ import os
 import torch
 from torch import nn
 import torchvision
-from src.model import PlainResnet50, CustomResnet50, PlainEfficientnetB4, PlainEfficientnetB5
-
+from src.model import PlainResnet50, CustomResnet50, PlainEfficientnetB4, PlainEfficientnetB5, PlainEfficientnetB7
+import IPython
 
 class CallModel():
     def __init__(self, model_type=None, pretrained=True, logger=None, path='./pretrained_model'):
@@ -23,7 +23,11 @@ class CallModel():
             
         elif model_type == 'plain_efficientnetb5':
             base_model = PlainEfficientnetB5()
-            weight_path = os.path.join(path, 'plain_efficientnetb5_epoch9_ckpt.pth')
+            weight_path = os.path.join(path, 'plain_efficientnetb5_ckpt.pth')
+            
+        elif model_type == 'plain_efficientnetb7':
+            base_model = PlainEfficientnetB7()
+            weight_path = os.path.join(path, 'plain_efficientnetb7_ckpt.pth')
             
         else:
             raise Exception(f"No such model type: {model_type}")
@@ -32,13 +36,16 @@ class CallModel():
         # LOAD PRETRAINED WEIGHTS
         if pretrained:
             logger.info(f"Using pretrained model. Loading weights from {weight_path}")
-            model = CallModel._load_weights(base_model, weight_path)
+            base_model = CallModel._load_weights(base_model, weight_path)
+            
+            # b5 model
+            nn.init.xavier_normal_(base_model.block[0]._fc.weight)
+            #IPython.embed(); exit(1)
            
         else:
             logger.info(f"Not using pretrained model.")
-            model = base_model
         
-        self.model = model
+        self.model = base_model
             
     def model_return(self):
         return self.model

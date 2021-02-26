@@ -64,6 +64,7 @@ def load_dataset(mode='train', **kwargs):
     
     img_dir = kwargs['img_dir']
     label_dir = kwargs['label_dir']
+    device = kwargs['device']
 
     if mode=='train':
         
@@ -76,14 +77,14 @@ def load_dataset(mode='train', **kwargs):
             label_dir=label_dir,
             train=True,
             row_index=train_index,
-            device=global_device)
+            device=device)
 
         val_set = CustomDataLoader(
             img_dir=img_dir,
             label_dir=label_dir,
             train=False,
             row_index=val_index,
-            device=global_device)
+            device=device)
 
         train_loader = torch.utils.data.DataLoader(train_set, batch_size=batch_size, shuffle=True)
         val_loader = torch.utils.data.DataLoader(val_set, batch_size=32, shuffle=False)
@@ -100,8 +101,8 @@ def load_dataset(mode='train', **kwargs):
                 label_dir=label_dir,
                 train=False,
                 row_index=test_index,
-                device=global_device)
-            tmp_test_loader = torch.utils.data.DataLoader(tmp_test_set, batch_size=8, shuffle=False)
+                device=device)
+            tmp_test_loader = torch.utils.data.DataLoader(tmp_test_set, batch_size=4, shuffle=False)
             test_loader = [tmp_test_loader]
         
         else:
@@ -113,11 +114,11 @@ def load_dataset(mode='train', **kwargs):
                     img_dir=img_dir,
                     label_dir=label_dir,
                     row_index=test_index,
-                    device=global_device,
+                    device=device,
                     tta=True,
                     angle=angle)
                 
-                tmp_test_loader = torch.utils.data.DataLoader(tmp_test_set, batch_size=8, shuffle=False)
+                tmp_test_loader = torch.utils.data.DataLoader(tmp_test_set, batch_size=4, shuffle=False)
                 test_loader.append(tmp_test_loader)
 
         #test_loader = torch.utils.data.DataLoader(test_set, batch_size=32, shuffle=False)
@@ -188,7 +189,6 @@ if __name__ == "__main__":
     parser.add_argument("--base_dir", type=str, default="/home/sks/COMPETITION/DACON/computer_vision2", help='Base PATH of your work')
     parser.add_argument("--mode", type=str, default="train", help='[train | test]')
     parser.add_argument("--data_type", type=str, default="denoised", help='[original | denoised]: default=denoised')
-    parser.add_argument("--augmix", dest='augmix', action='store_true', help='Whether to use augmix. Specify this argument to use augmix')
     parser.add_argument("--ckpt_path", type=str, default="/home/sks/COMPETITION/DACON/computer_vision2/ckpt", help='PATH to weights of ckpts.')
     parser.add_argument("--base_model", type=str, default="resnet50", help="[plain_resnet50, custom_resnet50, plain_efficientnetb4]")
     parser.add_argument("--pretrained", dest='pretrained', action='store_true', help='Default is false, so specify this argument to use pretrained model')
@@ -281,6 +281,8 @@ if __name__ == "__main__":
         for train_fold, val_fold in splitted:
             train_index_set.append(train_fold)
             val_index_set.append(val_fold)
+        
+        logger.info(f"Trainset length: {len(train_index_set[0])}, Valset length: {len(val_index_set[0])}")
     
     test_index = range(5000)
 
@@ -320,7 +322,8 @@ if __name__ == "__main__":
                                                     img_dir=img_dir_train,
                                                     label_dir=label_dir_train,
                                                     train_index=train_index,
-                                                    val_index=val_index)
+                                                    val_index=val_index,
+                                                    device=global_device)
             
             # Train model
             train_model(model_to_train, k, ckpt_folder_path, args, logger, train_loader, val_loader)
@@ -336,7 +339,8 @@ if __name__ == "__main__":
                                    label_dir=label_dir_test,
                                    test_index=test_index,
                                    tta = args.tta,
-                                   angles = [0, 90, -90])
+                                   angles = [0, 90, -90],
+                                   device=global_device)
         
         pred_list = []
         for k in range(args.fold_k):

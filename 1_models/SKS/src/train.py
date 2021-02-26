@@ -29,11 +29,18 @@ class CustomSmoothedLoss:
         self.base_loss_function = nn.MultiLabelSoftMarginLoss()
         
     def __call__(self, pred, gt, eps=0.1):
-        num_classes = 26
-        eps_applied = gt*(1-eps)
-        smoothed_gt = torch.where(eps_applied==0.0, eps, eps_applied)
         
-        return self.base_loss_function(pred, smoothed_gt)
+        smoothed_gt = torch.where(gt==0, eps, 1-eps)
+        
+        loss1 = self.base_loss_function(pred, smoothed_gt)
+        
+        sum_preds = torch.sum(pred > 0.5, axis=-1)
+        sum_gt = torch.sum(gt, axis=-1)
+        loss2 = torch.mean(torch.abs(sum_gt - sum_preds))
+        
+        fin_loss = loss1 + 0.1*loss2
+        
+        return fin_loss
 
     
 class CustomLoss:
@@ -44,10 +51,10 @@ class CustomLoss:
         loss1 = self.base_loss_function(pred, gt)
         
         sum_preds = torch.sum(pred > 0.5, axis=-1)
-        loss2 = torch.mean(torch.max(torch.zeros_like(sum_preds), 10 - sum_preds).float())
-        #IPython.embed(); exit(1)
+        sum_gt = torch.sum(gt, axis=-1)
+        loss2 = torch.mean(torch.abs(sum_gt - sum_preds))
         
-        return loss1 + 0.01*loss2
+        return loss1 + 0.1*loss2
     
 
 def train_model(input_model, fold_k, model_save_path, args, logger, *loaders):
@@ -66,6 +73,7 @@ def train_model(input_model, fold_k, model_save_path, args, logger, *loaders):
     
     loss_function = nn.MultiLabelSoftMarginLoss()
     #loss_function = nn.BCEWithLogitsLoss()
+    #loss_function = CustomSmoothedLoss()
     #loss_function = CustomLoss()
     
     #optimizer = optim.Adam(model.parameters(), lr=lr)
@@ -78,8 +86,8 @@ def train_model(input_model, fold_k, model_save_path, args, logger, *loaders):
     #model, optimizer = amp.initialize(model, optimizer, opt_level='01')
     
     # LERANING RATE SCHEDULER (WARMUP)
-    #decayRate = 0.998
-    #lr_scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer=optimizer, gamma=decayRate)
+    #decay_rate = 0.97
+    #lr_scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer=optimizer, gamma=decay_rate)
     
     #annealing_cycle = 3
     #lr_scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer=optimizer, T_max=int(args.epochs/annealing_cycle))
@@ -89,14 +97,30 @@ def train_model(input_model, fold_k, model_save_path, args, logger, *loaders):
                                                             int(args.epochs*0.4),
                                                             int(args.epochs*0.6)
                                                         ],
-                                                        gamma=0.6)
+                                                        gamma=0.7)
+
+    # EF-b5
+#     lr_scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer=optimizer,
+#                                                         milestones=[15, 20],
+#                                                         gamma=0.5)
+
 #     lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer=optimizer,
 #                                                   step_size=10,
 #                                                   gamma=0.7)
+
+    logger.info(f"""
+---------------------------------------------------------------------------
+    TRAINING INFO
+        Loss function : {loss_function}
+        Optimizer     : {optimizer}
+        LR_Scheduler  : {lr_scheduler}
+---------------------------------------------------------------------------""")
     
     # WARM-UP
     warmup_epochs = int(args.epochs * 0.15)
-    #warmup_epochs = 12
+    
+    # EF-b5
+    #warmup_epochs = 10
     lr_warmup = GradualWarmupScheduler(optimizer, multiplier=1, total_epoch=warmup_epochs, after_scheduler=lr_scheduler)
     
     train_tot_num = train_loader.dataset.__len__()
@@ -120,8 +144,8 @@ def train_model(input_model, fold_k, model_save_path, args, logger, *loaders):
             lr_warmup.step()
         
         logger.info(f"""
----------------------------------------------------------------------------
-    TRAINING INFO
+===========================================================================
+    PHASE INFO
         Current fold  : Fold ({fold_k})
         Current phase : {epoch+1}th epoch
         Learning Rate : {optimizer.param_groups[0]['lr']:.6f}
@@ -202,7 +226,7 @@ def train_model(input_model, fold_k, model_save_path, args, logger, *loaders):
         Time taken      : {time_len_m:.0f}m {time_len_s:.2f}s
         Training Loss   : {train_loss:.6f}  |  Training Acc   : {train_acc:.4f}%
         Validation Loss : {val_loss:.6f}  |  Validation Acc : {val_acc:.4f}%
----------------------------------------------------------------------------\n""")
+===========================================================================\n""")
         
         if ((epoch+1) >= epochs-10) and ((epoch+1) % 2 == 0):
             save_path = os.path.join(model_save_path, f'model_ckpt_fold{fold_k}_{epoch+1}.pth')
