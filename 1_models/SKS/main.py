@@ -102,7 +102,7 @@ def load_dataset(mode='train', **kwargs):
                 train=False,
                 row_index=test_index,
                 device=device)
-            tmp_test_loader = torch.utils.data.DataLoader(tmp_test_set, batch_size=4, shuffle=False)
+            tmp_test_loader = torch.utils.data.DataLoader(tmp_test_set, batch_size=128, shuffle=False)
             test_loader = [tmp_test_loader]
         
         else:
@@ -118,7 +118,7 @@ def load_dataset(mode='train', **kwargs):
                     tta=True,
                     angle=angle)
                 
-                tmp_test_loader = torch.utils.data.DataLoader(tmp_test_set, batch_size=4, shuffle=False)
+                tmp_test_loader = torch.utils.data.DataLoader(tmp_test_set, batch_size=128, shuffle=False)
                 test_loader.append(tmp_test_loader)
 
         #test_loader = torch.utils.data.DataLoader(test_set, batch_size=32, shuffle=False)
@@ -146,20 +146,30 @@ def make_inference(args, model, test_loader):
     total_set = []
     for idx, single_test_loader in enumerate(test_loader):
         logger.info(f"Inference on test_loader ({idx+1}/{len(test_loader)})")
+        
         fin_labels = []
-        for _, (test_X, test_Y) in enumerate(single_test_loader):
+        for _, (test_X, test_Y) in enumerate(tqdm(single_test_loader)):
             
-            pred = model(test_X)
-            #IPython.embed(); exit(1)
-            pred_label = ((pred > args.threshold)*1).detach().to('cpu').numpy()
+            # Make predictions
+            with torch.no_grad():
+                pred = model(test_X)
+            
+            if args.voting == 'soft':
+                pred_label = torch.sigmoid(pred).detach().to('cpu').numpy()
+            else:
+                pred_label = ((pred > args.threshold)*1).detach().to('cpu').numpy()
+                
             fin_labels.append(pred_label)
+            torch.cuda.empty_cache()
         
         logger.info("Done.")
-        fin_labels = np.concatenate(fin_labels)
-        total_set.append(fin_labels)
+        total_set.append(np.concatenate(fin_labels))
     
     #IPython.embed(); exit(1)
-    fin_total_set = np.where(np.mean(total_set, axis=0) > 0.5, 1, 0)
+    if args.voting == 'soft':
+        fin_total_set = np.mean(total_set, axis=0)
+    else:
+        fin_total_set = np.where(np.mean(total_set, axis=0) >= 0.5, 1, 0)
     
     return fin_total_set
  
@@ -205,6 +215,7 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=227182, help='Seed used for reproduction')
     parser.add_argument("--fold_k", type=int, default=5, help='Number of fold for k-fold split. If k=1, standard train/val splitting is done.')
     parser.add_argument("--tta", dest='tta', action='store_true', help='Whether to use TTA on inference. Specify this argument to use TTA.')
+    parser.add_argument("--voting", type=str, default='soft', help='Choosing soft voting or hard voting at inference')
     args = parser.parse_args()
     
     
@@ -339,7 +350,7 @@ if __name__ == "__main__":
                                    label_dir=label_dir_test,
                                    test_index=test_index,
                                    tta = args.tta,
-                                   angles = [0, 90, -90],
+                                   angles = [0, 90, -90, 180],
                                    device=global_device)
         
         pred_list = []
